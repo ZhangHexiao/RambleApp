@@ -35,7 +35,7 @@
 - SQL database design and optimization
 - Integrating third-party libraries (e.g. Stripe Facebook, etc.) on server-side using Node.js
 ---
-## New Added Feature
+## New Added Features
 
 ***Version 3 Upate***
 - Main page

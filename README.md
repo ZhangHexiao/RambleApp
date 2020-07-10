@@ -9,13 +9,13 @@
 
 > Users can instantly select from a wide array of unique experiences
 
-**Badges will go here**
+**My responsibil**
 
-- build status
-- issues (waffle.io maybe)
-- devDependencies
-- npm package
-- coverage
+- Full development and distribution life cycle of two enterprise iOS apps -- Ramble and Ramble Creator
+- Designed SQL database -- using Parse, Facebook API for logging
+- Configured back-end Server -- using Parse Server and could function to manage payment, available tickets changing, send notification
+- Real-time Chatting system -- using Parse Live-Query, MessageKit framework
+- Payment system -- Users transact with the Ramble, which enable Creators claim transferred funds after the events; configured Stripe pod on front-end and Stripe API on server-side; send QR Code for tickets verification; send verification code for securely claiming fund using Twilio
 - slack
 - downloads
 - gitter chat

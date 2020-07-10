@@ -34,15 +34,17 @@
 
 [![INSERT YOUR GRAPHIC HERE](https://github.com/ZhangHexiao/RambleApp/blob/master/images/version3.png)]()
 
-> Tips
+
+
+**Home Page, Detail Page, Payment page**
+
+![Recordit GIF](http://g.recordit.co/iLN6A0vSD8.gif)
+
+> Detail
 - Embed Collection View in Custom Table View Cell to display discovered experience
 - Add animation to hide the navbar when scroll down
 - Display experiences sorted by categories
 - Add slide-up menu to select date
-
-**Recordit**
-
-![Recordit GIF](http://g.recordit.co/iLN6A0vSD8.gif)
 
 ---
 

@@ -55,20 +55,16 @@
 - Main page, add collection view
 - Ergo, people should understand instantly what your project is about based on your repo
 
-> Search local and remote Experience(Events
 
-- 12345
-- 45678
 
 **Search local and remote Experience(Events)**
 
 ![Search GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/SearchAndLocation.gif)
 
-> Booking and payment system
+> Search local and remote Experience(Events
 
-- Booking
-- Claim
-- GIFS ARE REALLY COOL
+- 12345
+- 45678
 
 **Chatting System**
 
@@ -83,6 +79,12 @@
 **Payment System**
 
 ![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentUser.gif)![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentCreator.gif)
+
+> Booking and payment system
+
+- Booking
+- Claim
+- GIFS ARE REALLY COOL
 
 **Rating System**
 

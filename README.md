@@ -62,7 +62,17 @@
 
 **Search local and remote Experience(Events)**
 
-![Recordit GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/SearchAndLocation.gif)
+![Search GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/SearchAndLocation.gif)
+
+> Booking and payment system
+
+- Booking
+- Claim
+- GIFS ARE REALLY COOL
+
+**Chatting System**
+
+![Chatting GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/SearchAndLocation.gif)
 
 > Booking and payment system
 
@@ -73,6 +83,16 @@
 **Payment System**
 
 ![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentUser.gif)![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentCreator.gif)
+
+**Rating System**
+
+![Rating GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/RatingSystem.gif)
+
+> Booking and payment system
+
+- Booking
+- Claim
+- GIFS ARE REALLY COOL
 
 ---
 ## Table of Contents (Optional)

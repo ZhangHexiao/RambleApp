@@ -66,17 +66,17 @@
 - 12345
 - 45678
 
-**Chatting System**
+**Real-time Chatting System**
 
 ![Chatting GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/My%20Movieyasuo%20-%20converted%20with%20Clipchamp.gif)
 
-> Booking and payment system
+> Real-time chatting system
 
 - Booking
 - Claim
 - GIFS ARE REALLY COOL
 
-**Payment System**
+**Booking and Payment System**
 
 ![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentUser.gif)![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentCreator.gif)
 
@@ -90,7 +90,7 @@
 
 ![Rating GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/RatingSystem.gif)
 
-> Booking and payment system
+> Rating System
 
 - Booking
 - Claim

@@ -72,7 +72,7 @@
 
 **Chatting System**
 
-![Chatting GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/SearchAndLocation.gif)
+![Chatting GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/My%20Movieyasuo%20-%20converted%20with%20Clipchamp.gif)
 
 > Booking and payment system
 

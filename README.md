@@ -10,8 +10,8 @@
 > Users can instantly select from a wide array of unique experiences
 
 **My responsibility**
-- Working as the only IOS developer in the team
-- Took charge of full development and distribution life cycle of two enterprise iOS apps -- Ramble and Ramble Creator
+- Working as the only iOS developer in the team
+- Managed the full development and distribution life cycle of two enterprise iOS apps -- Ramble and Ramble Creator
 - Translated concept design into user interface compatible with various generations of iPhone, and designed application screen flows -- UITableView, UICollectionVIew, UITapGestureRecognizer
 - Designed SQL database -- using Parse, Facebook API for logging
 - Configured back-end Server -- using Parse Server and cloud functions to manage payment, updating available tickets, sending notification

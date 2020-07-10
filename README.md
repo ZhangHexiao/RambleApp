@@ -55,10 +55,6 @@
 - Main page, add collection view
 - Ergo, people should understand instantly what your project is about based on your repo
 
-[![INSERT YOUR GRAPHIC HERE](https://github.com/ZhangHexiao/RambleApp/blob/master/images/version3.png)]()
-
-
-
 > Tips
 
 - HAVE WHITE SPACE
@@ -72,7 +68,7 @@
 
 **Recordit**
 
-![Recordit GIF](http://g.recordit.co/iLN6A0vSD8.gif)
+![Recordit GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/SearchAndLocation.gif)
 
 **ttystudio**
 

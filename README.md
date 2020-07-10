@@ -77,9 +77,10 @@
 
 > Booking and payment system
 
-- Booking
-- Claim
-- GIFS ARE REALLY COOL
+- Allowed Users transact with the Ramble, which enable Creators claim transferred funds after the events
+- Configured Stripe pod on front-end and Stripe API on server-side
+- Set up QR Code sending and checking for tickets verification 
+- Set up verification code check for securely claiming fund using Twilio
 
 **Rating System**
 
@@ -87,10 +88,8 @@
 
 > Rating System
 
-- Allowed Users transact with the Ramble, which enable Creators claim transferred funds after the events
-- Configured Stripe pod on front-end and Stripe API on server-side
-- Set up QR Code sending and checking for tickets verification 
-- Set up verification code check for securely claiming fund using Twilio
+- Buit the dynamic UI for rating page
+- Set up the local notification to remind User to rate two hour after the end of experience
 
 ---
 ## Table of Contents (Optional)

@@ -72,7 +72,7 @@
 
 **Payment System**
 
-![ttystudio GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentCreator.gif)
+![ttystudio GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentUser.gif)(https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentCreator.gif)
 
 ---
 ## Table of Contents (Optional)

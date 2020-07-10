@@ -38,10 +38,7 @@
 ## New Added Features
 
 ***Version 3 Upate***
-- Main page
-- Experience Detail page
-- Payment page
-- Date selection page
+- Main page * Experience Detail page * Payment page * Date selection page
 
 [![INSERT YOUR GRAPHIC HERE](https://github.com/ZhangHexiao/RambleApp/blob/master/images/version3.png)]()
 

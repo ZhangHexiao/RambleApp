@@ -28,9 +28,9 @@
 
 ***Version 3 Upate***
 - Main page
-- Redo Experience Detail page
-- Redo payment page
-- Add date selection page
+- Experience Detail page
+- Payment page
+- Date selection page
 
 [![INSERT YOUR GRAPHIC HERE](https://github.com/ZhangHexiao/RambleApp/blob/master/images/version3.png)]()
 
@@ -41,37 +41,35 @@
 ![Recordit GIF](http://g.recordit.co/iLN6A0vSD8.gif)
 
 > Detail
-- Embed Collection View in Custom Table View Cell to display discovered experience
-- Add animation to hide the navbar when scroll down
-- Display experiences sorted by categories
-- Add slide-up menu to select date
+- Embeded Collection View in Custom Table View Cell to display discovered experience
+- Added animation hiding hide the navbar when scroll down
+- Displayed experiences sorted by categories
+- Added slide-up menu to select date
 
 ---
 
 ***Version 2 Upate***
-- Main page, add collection view
-- Ergo, people should understand instantly what your project is about based on your repo
-
-
+- Added search experience locally and remotely(change city)
+- Built in-app Chatting system
+- Built payment system
+- Built rating system after attending experience
 
 **Search local and remote Experience(Events)**
 
 ![Search GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/SearchAndLocation.gif)
 
-> Search local and remote Experience(Events
-
-- 12345
-- 45678
+> Search local and remote Experience(Events)
+- Work Google Places, Privacy and Location Service
+- Search expericence from database and sort based on distance and date
 
 **Real-time Chatting System**
 
 ![Chatting GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/chatting.gif)
 
 > Real-time chatting system
-
-- Booking
-- Claim
-- GIFS ARE REALLY COOL
+- Used MessageKit
+- Used Parse Live-query
+- Set up UNUserNotificationCenter and server to push local and remote notification
 
 **Booking and Payment System**
 
@@ -89,9 +87,10 @@
 
 > Rating System
 
-- Booking
-- Claim
-- GIFS ARE REALLY COOL
+- Allowed Users transact with the Ramble, which enable Creators claim transferred funds after the events
+- Configured Stripe pod on front-end and Stripe API on server-side
+- Set up QR Code sending and checking for tickets verification 
+- Set up verification code check for securely claiming fund using Twilio
 
 ---
 ## Table of Contents (Optional)

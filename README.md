@@ -14,18 +14,18 @@
 - Full development and distribution life cycle of two enterprise iOS apps -- Ramble and Ramble Creator
 - Translated concept design into user interface compatible with various generations of iPhone, and designed application screen flows -- UITableView, UICollectionVIew, UITapGestureRecognizer
 - Designed SQL database -- using Parse, Facebook API for logging
-- Configured back-end Server -- using Parse Server and cloud functions to manage payment, updating, available tickets, sending notification
+- Configured back-end Server -- using Parse Server and cloud functions to manage payment, updating available tickets, sending notification
 - Real-time Chatting system -- using Parse Live-Query, MessageKit framework
 - Payment system -- Users transact with the Ramble, which enable Creators claim transferred funds after the events; configured Stripe pod on front-end and Stripe API on server-side; send QR Code for tickets verification; send verification code for securely claiming fund using Twilio
 - Notification system -- seting up UNUserNotificationCenter and server to push local and remote notification
 - Rating system -- push review reminder to user after experience
-- Configured various third-party API to customize the service for users -- MapBox and Google Place Service for discovering event
+- Configured various third-party API to customize the service for users -- MapBox and Google Place Service for discovering event, smart input TextField, and so on. 
 
 
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Dependency Status](http://img.shields.io/gemnasium/badges/badgerbadgerbadger.svg?style=flat-square)](https://gemnasium.com/badges/badgerbadgerbadger) [![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger)[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-***Version 3 Upate ***
-- Most people will glance at your `README`, *maybe* star it, and leave
+***Version 3 Upate***
+- Main page, add collection view
 - Ergo, people should understand instantly what your project is about based on your repo
 
 [![INSERT YOUR GRAPHIC HERE](https://github.com/ZhangHexiao/RambleApp/blob/master/images/version3.png)]()

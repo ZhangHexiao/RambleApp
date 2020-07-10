@@ -25,6 +25,15 @@
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Dependency Status](http://img.shields.io/gemnasium/badges/badgerbadgerbadger.svg?style=flat-square)](https://gemnasium.com/badges/badgerbadgerbadger) [![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger)[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 ---
+## Applied Development Paradigms
+
+- Asynchronous programming to deal with order and fund transfer
+- Multi-threading to update tableView and collectionView
+- UI transitions, such as Present, Navigation, Child Controller
+- Image processing, using AWS service
+- Network & socket programming for chatting system
+- SQL database design and optimization
+- Integrating third-party libraries (e.g. Stripe Facebook, etc.) on server-side using Node.js
 
 ***Version 3 Upate***
 - Main page
@@ -90,20 +99,6 @@
 
 - Buit the dynamic UI for rating page
 - Set up the local notification to remind User to rate two hour after the end of experience
-
----
-## Table of Contents (Optional)
-
-> If your `README` has a lot of info, section headers might be nice.
-
-- [Installation](#installation)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
-
 
 ---
 

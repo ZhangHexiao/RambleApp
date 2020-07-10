@@ -1,6 +1,5 @@
 ![image](https://github.com/ZhangHexiao/RambleApp/blob/master/images/RambleIcon.png)
 
-***INSERT GRAPHIC HERE (include hyperlink in image)***
 
 # Repository Title Goes Here
 

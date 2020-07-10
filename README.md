@@ -30,7 +30,7 @@
 - Asynchronous programming to deal with order and fund transfer
 - Multi-threading to update tableView and collectionView
 - UI transitions, such as Present, Navigation, Child Controller
-- Image processing, using AWS service
+- Image processing, using AWS service and S3 Adapter
 - Network & socket programming for chatting system
 - SQL database design and optimization
 - Integrating third-party libraries (e.g. Stripe Facebook, etc.) on server-side using Node.js

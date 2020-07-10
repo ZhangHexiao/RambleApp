@@ -55,24 +55,24 @@
 - Main page, add collection view
 - Ergo, people should understand instantly what your project is about based on your repo
 
-> Tips
+> Search local and remote Experience(Events
 
-- HAVE WHITE SPACE
-- MAKE IT PRETTY
-- GIFS ARE REALLY COOL
+- 12345
+- 45678
 
-> GIF Tools
-
-- Use <a href="http://recordit.co/" target="_blank">**Recordit**</a> to create quicks screencasts of your desktop and export them as `GIF`s.
-- For terminal sessions, there's <a href="https://github.com/chjj/ttystudio" target="_blank">**ttystudio**</a> which also supports exporting `GIF`s.
-
-**Recordit**
+**Search local and remote Experience(Events)**
 
 ![Recordit GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/SearchAndLocation.gif)
 
-**ttystudio**
+> Booking and payment system
 
-![ttystudio GIF](https://raw.githubusercontent.com/chjj/ttystudio/master/img/example.gif)
+- Booking
+- Claim
+- GIFS ARE REALLY COOL
+
+**Payment System**
+
+![ttystudio GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentCreator.gif)
 
 ---
 ## Table of Contents (Optional)

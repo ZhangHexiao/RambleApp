@@ -68,7 +68,7 @@
 
 **Real-time Chatting System**
 
-![Chatting GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/My%20Movieyasuo%20-%20converted%20with%20Clipchamp.gif)
+![Chatting GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/chatting.gif)
 
 > Real-time chatting system
 

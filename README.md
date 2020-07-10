@@ -27,23 +27,18 @@
 ---
 
 ***Version 3 Upate***
-- Main page, add collection view
-- Ergo, people should understand instantly what your project is about based on your repo
+- Main page
+- Redo Experience Detail page
+- Redo payment page
+- Add date selection page
 
 [![INSERT YOUR GRAPHIC HERE](https://github.com/ZhangHexiao/RambleApp/blob/master/images/version3.png)]()
 
-
-
 > Tips
-
-- HAVE WHITE SPACE
-- MAKE IT PRETTY
-- GIFS ARE REALLY COOL
-
-> GIF Tools
-
-- Use <a href="http://recordit.co/" target="_blank">**Recordit**</a> to create quicks screencasts of your desktop and export them as `GIF`s.
-- For terminal sessions, there's <a href="https://github.com/chjj/ttystudio" target="_blank">**ttystudio**</a> which also supports exporting `GIF`s.
+- Embed Collection View in Custom Table View Cell to display discovered experience
+- Add animation to hide the navbar when scroll down
+- Display experiences sorted by categories
+- Add slide-up menu to select date
 
 **Recordit**
 

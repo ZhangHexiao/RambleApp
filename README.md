@@ -34,6 +34,8 @@
 - Network & socket programming for chatting system
 - SQL database design and optimization
 - Integrating third-party libraries (e.g. Stripe Facebook, etc.) on server-side using Node.js
+---
+## New Added Feature
 
 ***Version 3 Upate***
 - Main page

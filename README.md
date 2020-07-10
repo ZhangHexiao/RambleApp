@@ -1,13 +1,13 @@
 ![image](https://github.com/ZhangHexiao/RambleApp/blob/master/images/RambleIcon.png)
 
 
-# Repository Title Goes Here
+# Ramble
 
-> Subtitle or Short Description Goes Here
+> Ramble will develop the leading experience discovery platform, allowing anyone to easily partake in activities they love, created by passionate people.
 
-> ideally one sentence
+> Creators upload one-of-a-kind experiences to the Ramble Creator App
 
-> include terms/tags that can be searched
+> Users can instantly select from a wide array of unique experiences
 
 **Badges will go here**
 

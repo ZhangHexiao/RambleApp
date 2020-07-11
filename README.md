@@ -80,9 +80,9 @@
 - Set up UNUserNotificationCenter and server to push local and remote notification
 
 **Booking and Payment System**
-
+***Enabled Users to book experience on Ramble App***
 ![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentUser.gif)
-
+***Enabled Creators to Claim their income gained by selling tickets on Ramble Creator App***
 ![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentCreator.gif)
 
 > Booking and payment system

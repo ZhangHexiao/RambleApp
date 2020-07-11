@@ -10,6 +10,7 @@
 > Users can instantly select from a wide array of unique experiences
 
 **My responsibility**
+
 - Working as the only iOS developer in the team
 - Managed the full development and distribution life cycle of two enterprise iOS apps -- Ramble and Ramble Creator
 - Translated concept design into user interface compatible with various generations of iPhone, and designed application screen flows -- UITableView, UICollectionVIew, UITapGestureRecognizer
@@ -80,9 +81,13 @@
 - Set up UNUserNotificationCenter and server to push local and remote notification
 
 **Booking and Payment System**
+
 ***Enabled Users to book experience on Ramble App***
+
 ![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentUser.gif)
+
 ***Enabled Creators to Claim their income gained by selling tickets on Ramble Creator App***
+
 ![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentCreator.gif)
 
 > Booking and payment system

@@ -86,7 +86,7 @@
 
 ![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentUser.gif)
 
-***Enabled Creators to Claim their income gained by selling tickets on Ramble Creator App***
+***Enabled Creators to claim their income gained by selling tickets on Ramble Creator App***
 
 ![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentCreator.gif)
 

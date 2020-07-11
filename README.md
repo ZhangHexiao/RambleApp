@@ -50,7 +50,7 @@
 
 > Detail
 - Embeded Collection View in Custom Table View Cell to display discovered experience
-- Added animation hiding hide the navbar when scroll down
+- Added animation hiding the navbar when scroll down
 - Displayed experiences sorted by categories
 - Added slide-up menu to select date
 
@@ -67,8 +67,8 @@
 ![Search GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/SearchAndLocation.gif)
 
 > Search local and remote Experience(Events)
-- Work Google Places, Privacy and Location Service
-- Search expericence from database and sort based on distance and date
+- Worked on Google Places, iPhone Privacy and Location Service
+- Searched expericence from database and sorted based on distance and date
 
 **Real-time Chatting System**
 
@@ -80,8 +80,10 @@
 - Set up UNUserNotificationCenter and server to push local and remote notification
 
 **Booking and Payment System**
-
-![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentUser.gif)![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentCreator.gif)
+- User Booking experience on Ramble App
+![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentUser.gif)
+- Creator Claim their income on Ramble Creator
+![Payment GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/PaymentCreator.gif)
 
 > Booking and payment system
 
@@ -96,7 +98,7 @@
 
 > Rating System
 
-- Buit the dynamic UI for rating page
+- Built the dynamic UI for rating page
 - Set up the local notification to remind User to rate two hour after the end of experience
 
 ---

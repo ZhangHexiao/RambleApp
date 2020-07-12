@@ -47,7 +47,7 @@
 
 **Home Page, Detail Page, Payment page**
 
-![Recordit GIF](http://g.recordit.co/iLN6A0vSD8.gif)
+![Recordit GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/version3Homepage.gif)![Recordit GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/version3PaymentPaypage.gif)
 
 > Detail
 - Embeded Collection View in Custom Table View Cell to display discovered experience

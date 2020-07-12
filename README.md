@@ -11,9 +11,8 @@
 
 **My responsibility**
 
-- Working as the only iOS developer in the team
+- Working as the only iOS developer in the team, responsible for translating concept design into user interface compatible with various generations of iPhone, and designed application screen flows -- using UITableView, UICollectionVIew, UITapGestureRecognizer
 - Managed the full development and distribution life cycle of two enterprise iOS apps -- Ramble and Ramble Creator
-- Translated concept design into user interface compatible with various generations of iPhone, and designed application screen flows -- UITableView, UICollectionVIew, UITapGestureRecognizer
 - Designed SQL database -- using Parse, Facebook API for logging
 - Configured back-end Server -- using Parse Server and cloud functions to manage payment, updating available tickets, sending notification
 - Real-time Chatting system -- using Parse Live-Query, MessageKit framework

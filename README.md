@@ -50,6 +50,7 @@
 
 ![Recordit GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/version3Homepage.gif)
 ![Recordit GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/version3PaymentPaypage.gif)
+![Recordit GIF](https://github.com/ZhangHexiao/RambleApp/blob/master/images/mapFeature.gif)
 
 > Detail
 - Embeded Collection View in Custom Table View Cell to display discovered experience

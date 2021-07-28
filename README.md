@@ -21,8 +21,6 @@
 - Notification system -- seting up UNUserNotificationCenter and server to push local and remote notification
 - Configured various third-party API to customize the service for users -- MapBox and Google Place Service for discovering event, smart input TextField, and so on. 
 
-[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Dependency Status](http://img.shields.io/gemnasium/badges/badgerbadgerbadger.svg?style=flat-square)](https://gemnasium.com/badges/badgerbadgerbadger) [![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger)[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
 ---
 ## Applied Development Paradigms
 
@@ -108,19 +106,6 @@
 - Built the dynamic UI for rating page
 - Set up the local notification to remind User to rate two hour after the end of experience
 
----
-
-## Test
-
-```swift
-// set to Config file
-// for connecting the gurana server/development database
-//        private static let devUrl = "https://**********************/parse"
-// Test on simulator, for connecting the localhost server/development database
-        private static let devUrl = "http://localhost:1337/parse"
-// Test on real device and Connect the remote ngrok server/development database
-//        private static let devUrl = "http://*************.ngrok.io/parse"
-```
 
 ---
 

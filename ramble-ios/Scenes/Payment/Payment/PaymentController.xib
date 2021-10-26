@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaymentController" customModule="ramble_ios" customModuleProvider="target">
+            <connections>
+                <outlet property="buyButton" destination="szA-sA-sDZ" id="vb2-VU-Qc5"/>
+                <outlet property="tableView" destination="adU-MP-zzN" id="IVV-rm-vUd"/>
+                <outlet property="view" destination="jD1-E4-f0g" id="hRH-7b-N2H"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="jD1-E4-f0g" customClass="RMBBackgroundView" customModule="ramble_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKs-Yt-6Ea" userLabel="PaymentTitle">
+                    <rect key="frame" x="20" y="5" width="335" height="38.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="32"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="adU-MP-zzN">
+                    <rect key="frame" x="0.0" y="58.5" width="375" height="508.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <view key="tableHeaderView" contentMode="scaleToFill" id="SDG-0a-XzF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="4"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="szA-sA-sDZ" customClass="RMBButton" customModule="ramble_ios" customModuleProvider="target">
+                    <rect key="frame" x="20" y="591" width="335" height="56"/>
+                    <color key="backgroundColor" red="0.23529411759999999" green="0.83921568629999999" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="urf-BT-RGn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                    <state key="normal" title="Buy 1 ticket">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="theme">
+                            <integer key="value" value="6"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="actionBuy" destination="-1" eventType="touchUpInside" id="XHA-Ds-jRn"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.050980392156862744" green="0.050980392156862744" blue="0.050980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ssr-Id-tZg" firstAttribute="trailing" secondItem="adU-MP-zzN" secondAttribute="trailing" id="3JQ-CX-Ptj"/>
+                <constraint firstItem="szA-sA-sDZ" firstAttribute="leading" secondItem="ssr-Id-tZg" secondAttribute="leading" constant="20" id="4hr-ef-6hI"/>
+                <constraint firstItem="adU-MP-zzN" firstAttribute="top" secondItem="YKs-Yt-6Ea" secondAttribute="bottom" constant="15" id="8uV-ZC-N29"/>
+                <constraint firstItem="YKs-Yt-6Ea" firstAttribute="leading" secondItem="ssr-Id-tZg" secondAttribute="leading" constant="20" id="Bc5-j4-alC"/>
+                <constraint firstItem="YKs-Yt-6Ea" firstAttribute="top" secondItem="ssr-Id-tZg" secondAttribute="top" constant="5" id="GB6-Px-GDt"/>
+                <constraint firstItem="ssr-Id-tZg" firstAttribute="bottom" secondItem="adU-MP-zzN" secondAttribute="bottom" constant="100" id="Kus-5t-Aca"/>
+                <constraint firstItem="ssr-Id-tZg" firstAttribute="bottom" secondItem="szA-sA-sDZ" secondAttribute="bottom" constant="20" id="STg-Te-DXg"/>
+                <constraint firstItem="ssr-Id-tZg" firstAttribute="trailing" secondItem="szA-sA-sDZ" secondAttribute="trailing" constant="20" id="ihl-An-Ied"/>
+                <constraint firstItem="adU-MP-zzN" firstAttribute="leading" secondItem="ssr-Id-tZg" secondAttribute="leading" id="ubQ-P3-I3F"/>
+                <constraint firstItem="ssr-Id-tZg" firstAttribute="trailing" secondItem="YKs-Yt-6Ea" secondAttribute="trailing" constant="20" id="yt0-NM-9OJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ssr-Id-tZg"/>
+            <point key="canvasLocation" x="138" y="131"/>
+        </view>
+    </objects>
+</document>

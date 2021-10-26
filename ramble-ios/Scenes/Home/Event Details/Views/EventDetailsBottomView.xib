@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EventDetailsBottomView" customModule="ramble_ios" customModuleProvider="target">
+            <connections>
+                <outlet property="centerView" destination="Pe0-NF-skM" id="zft-ev-t9a"/>
+                <outlet property="contactBurtton" destination="xGt-AP-BpC" id="vnw-Zf-ZCn"/>
+                <outlet property="getTicketsButton" destination="b3K-RD-A08" id="H7L-68-zwx"/>
+                <outlet property="getTicketsLeading" destination="LfO-lh-i0a" id="QHV-3k-odD"/>
+                <outlet property="interestedButton" destination="Ase-xM-2Wh" id="7gQ-Qm-kKG"/>
+                <outlet property="interestedButtonTrailingToCenter" destination="vnr-0S-vBb" id="RE2-Wm-krI"/>
+                <outlet property="interestedLabel" destination="su5-qs-IYX" id="Ilb-di-Xfn"/>
+                <outlet property="shareButton" destination="iBJ-Be-LkH" id="o73-Uw-ceE"/>
+                <outlet property="shareButtonLeading" destination="Twj-he-jkC" id="pGg-VF-scj"/>
+                <outlet property="shareButtonLeadingToCenter" destination="Wjj-AG-TOi" id="uV7-4N-TJf"/>
+                <outlet property="shareLabel" destination="eiQ-VF-O7G" id="O8L-Pb-3VA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8yF-rn-0dl" userLabel="Bottom View">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="91"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ase-xM-2Wh">
+                    <rect key="frame" x="11" y="15.5" width="40" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="4yA-7d-Af5"/>
+                        <constraint firstAttribute="height" constant="45" id="PwC-Y3-9fT"/>
+                    </constraints>
+                    <state key="normal" image="ic_share"/>
+                    <connections>
+                        <action selector="actionInterested" destination="-1" eventType="touchUpInside" id="rSl-Ty-4Pi"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interested" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="su5-qs-IYX">
+                    <rect key="frame" x="4" y="53.5" width="54" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="12" id="lYV-iW-l7m"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
+                    <color key="textColor" red="0.53333333329999999" green="0.54117647059999996" blue="0.5450980392" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBJ-Be-LkH">
+                    <rect key="frame" x="51" y="15.5" width="70" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="R1x-Qc-Nsf"/>
+                        <constraint firstAttribute="width" constant="70" id="n6b-sO-VmJ"/>
+                    </constraints>
+                    <state key="normal" image="ic_share"/>
+                    <connections>
+                        <action selector="actionShare" destination="-1" eventType="touchUpInside" id="1dD-IJ-Wjq"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eiQ-VF-O7G">
+                    <rect key="frame" x="70" y="51.5" width="32" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="jT2-D3-1YT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
+                    <color key="textColor" red="0.53333333329999999" green="0.54117647059999996" blue="0.5450980392" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3K-RD-A08" customClass="RMBButton" customModule="ramble_ios" customModuleProvider="target">
+                    <rect key="frame" x="241" y="25.5" width="126" height="40"/>
+                    <color key="backgroundColor" red="0.90196078430000004" green="0.28627450980000002" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="126" id="3dm-GK-etl"/>
+                        <constraint firstAttribute="height" constant="40" id="3j9-Zb-cD0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                    <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                    <state key="normal" title="Get tickets">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Get tickets"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="actionGetTickets" destination="-1" eventType="touchUpInside" id="lWO-dh-InQ"/>
+                    </connections>
+                </button>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pe0-NF-skM" userLabel="Center View">
+                    <rect key="frame" x="185" y="15.5" width="5" height="60"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="CYz-mM-aBu"/>
+                        <constraint firstAttribute="width" constant="5" id="MB0-lx-72u"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGt-AP-BpC" userLabel="Contact" customClass="RMBButton" customModule="ramble_ios" customModuleProvider="target">
+                    <rect key="frame" x="131" y="25.5" width="100" height="40"/>
+                    <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="5Kc-Jf-fzH"/>
+                        <constraint firstAttribute="height" constant="40" id="P7t-zm-EWF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <state key="normal" title="Contact">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Contact"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="contactHost" destination="-1" eventType="touchUpInside" id="Z1R-ns-5cx"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="eiQ-VF-O7G" firstAttribute="bottom" secondItem="iBJ-Be-LkH" secondAttribute="bottom" constant="5" id="5d2-WP-M14"/>
+                <constraint firstItem="b3K-RD-A08" firstAttribute="leading" secondItem="xGt-AP-BpC" secondAttribute="trailing" constant="10" id="BGX-9G-xV7"/>
+                <constraint firstItem="su5-qs-IYX" firstAttribute="centerX" secondItem="Ase-xM-2Wh" secondAttribute="centerX" id="ExT-cK-pZZ"/>
+                <constraint firstItem="iBJ-Be-LkH" firstAttribute="top" secondItem="b3K-RD-A08" secondAttribute="top" constant="-10" id="KIL-Uy-N0e"/>
+                <constraint firstItem="xGt-AP-BpC" firstAttribute="leading" secondItem="iBJ-Be-LkH" secondAttribute="trailing" constant="10" id="LfO-lh-i0a"/>
+                <constraint firstItem="iBJ-Be-LkH" firstAttribute="leading" secondItem="Ase-xM-2Wh" secondAttribute="trailing" id="Twj-he-jkC"/>
+                <constraint firstAttribute="trailing" secondItem="b3K-RD-A08" secondAttribute="trailing" constant="8" id="ULz-4H-7us"/>
+                <constraint firstItem="Pe0-NF-skM" firstAttribute="centerY" secondItem="8yF-rn-0dl" secondAttribute="centerY" id="WM3-0I-hDe"/>
+                <constraint firstItem="iBJ-Be-LkH" firstAttribute="leading" secondItem="Pe0-NF-skM" secondAttribute="trailing" constant="20" id="Wjj-AG-TOi"/>
+                <constraint firstItem="su5-qs-IYX" firstAttribute="bottom" secondItem="Ase-xM-2Wh" secondAttribute="bottom" constant="5" id="aMg-Zx-pYb"/>
+                <constraint firstItem="eiQ-VF-O7G" firstAttribute="centerX" secondItem="iBJ-Be-LkH" secondAttribute="centerX" id="dut-SQ-I5O"/>
+                <constraint firstItem="b3K-RD-A08" firstAttribute="centerY" secondItem="8yF-rn-0dl" secondAttribute="centerY" id="erV-lW-86q"/>
+                <constraint firstItem="Ase-xM-2Wh" firstAttribute="top" secondItem="b3K-RD-A08" secondAttribute="top" constant="-10" id="hKd-B2-8VJ"/>
+                <constraint firstItem="xGt-AP-BpC" firstAttribute="centerY" secondItem="8yF-rn-0dl" secondAttribute="centerY" id="sqo-QU-ZKQ"/>
+                <constraint firstItem="Pe0-NF-skM" firstAttribute="leading" secondItem="Ase-xM-2Wh" secondAttribute="trailing" constant="-10" id="vnr-0S-vBb"/>
+                <constraint firstItem="Pe0-NF-skM" firstAttribute="centerX" secondItem="8yF-rn-0dl" secondAttribute="centerX" id="yzt-YS-Bkh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="8RZ-lw-kRp"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Wjj-AG-TOi"/>
+                    <exclude reference="vnr-0S-vBb"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="138.40000000000001" y="-159.67016491754123"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_share" width="23" height="19"/>
+    </resources>
+</document>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="HomePageEmptyCell" rowHeight="332" id="T8f-sv-8MB" customClass="HomePageEmptyCell" customModule="ramble_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="282"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T8f-sv-8MB" id="VF1-gq-t4e">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="282"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There are no events. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XX3-T6-FJV">
+                        <rect key="frame" x="45" y="171" width="285" height="20.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ramble_speed_left" translatesAutoresizingMaskIntoConstraints="NO" id="lri-L5-7Sb" userLabel="rmbleRight">
+                        <rect key="frame" x="107" y="41" width="161" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="161" id="JqW-bN-C8Q"/>
+                            <constraint firstAttribute="height" constant="100" id="SxE-YC-nkv"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9I-Vq-2eD" userLabel="firstCreatorButton" customClass="RMBButton" customModule="ramble_ios" customModuleProvider="target">
+                        <rect key="frame" x="102.5" y="221.5" width="170" height="35"/>
+                        <color key="backgroundColor" red="0.93333333333333335" green="0.66274509803921566" blue="0.72156862745098038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="TLm-YH-Y1q"/>
+                            <constraint firstAttribute="width" constant="170" id="jce-3F-QNf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                        <state key="normal" title="Get Started">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="tapBeCreatorButton:" destination="T8f-sv-8MB" eventType="touchUpInside" id="tfb-Wp-2rX"/>
+                        </connections>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ramble_speed_right" translatesAutoresizingMaskIntoConstraints="NO" id="Aqr-9h-iEA" userLabel="rambleLeft">
+                        <rect key="frame" x="0.0" y="41" width="107" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="2qJ-Jy-Fo8"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.050980392156862744" green="0.050980392156862744" blue="0.050980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="lri-L5-7Sb" firstAttribute="centerX" secondItem="VF1-gq-t4e" secondAttribute="centerX" id="8Y8-0Y-BDu"/>
+                    <constraint firstItem="XX3-T6-FJV" firstAttribute="leading" secondItem="VF1-gq-t4e" secondAttribute="leadingMargin" constant="30" id="DsO-NQ-eeH"/>
+                    <constraint firstItem="XX3-T6-FJV" firstAttribute="centerX" secondItem="VF1-gq-t4e" secondAttribute="centerX" id="EIj-Tp-NPh"/>
+                    <constraint firstItem="lri-L5-7Sb" firstAttribute="leading" secondItem="Aqr-9h-iEA" secondAttribute="trailing" id="HRq-Sp-cMM"/>
+                    <constraint firstItem="Y9I-Vq-2eD" firstAttribute="centerX" secondItem="VF1-gq-t4e" secondAttribute="centerX" id="TLv-ZE-blX"/>
+                    <constraint firstItem="lri-L5-7Sb" firstAttribute="top" secondItem="VF1-gq-t4e" secondAttribute="topMargin" constant="30" id="bai-O5-MGQ"/>
+                    <constraint firstItem="lri-L5-7Sb" firstAttribute="bottom" secondItem="Aqr-9h-iEA" secondAttribute="bottom" id="jQf-mZ-WWo"/>
+                    <constraint firstItem="XX3-T6-FJV" firstAttribute="top" secondItem="Aqr-9h-iEA" secondAttribute="bottom" constant="30" id="s1q-H7-8Lt"/>
+                    <constraint firstItem="Y9I-Vq-2eD" firstAttribute="top" secondItem="XX3-T6-FJV" secondAttribute="bottom" constant="30" id="teq-Xb-C3h"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="XX3-T6-FJV" secondAttribute="trailing" constant="30" id="wv1-tp-BW2"/>
+                    <constraint firstItem="Aqr-9h-iEA" firstAttribute="leading" secondItem="VF1-gq-t4e" secondAttribute="leading" id="xO9-ah-fBV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="beCreatorButton" destination="Y9I-Vq-2eD" id="2OM-ue-ipj"/>
+                <outlet property="emptyLabel" destination="XX3-T6-FJV" id="ho4-4H-1jq"/>
+            </connections>
+            <point key="canvasLocation" x="349.60000000000002" y="-53.073463268365821"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ramble_speed_left" width="162" height="100"/>
+        <image name="ramble_speed_right" width="137" height="100"/>
+    </resources>
+</document>

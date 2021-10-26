@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="EventCell" rowHeight="110" id="duf-z0-V5i" customClass="EventCell" customModule="ramble_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="duf-z0-V5i" id="S2N-eX-ew9">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="109.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ft-Ct-TpU" customClass="EventView" customModule="ramble_ios" customModuleProvider="target">
+                        <rect key="frame" x="8" y="4" width="359" height="101.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.050980392156862744" green="0.050980392156862744" blue="0.050980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="0ft-Ct-TpU" firstAttribute="top" secondItem="S2N-eX-ew9" secondAttribute="top" constant="4" id="09r-r7-Iw8"/>
+                    <constraint firstItem="0ft-Ct-TpU" firstAttribute="leading" secondItem="S2N-eX-ew9" secondAttribute="leading" constant="8" id="BOi-Mk-1fE"/>
+                    <constraint firstAttribute="trailing" secondItem="0ft-Ct-TpU" secondAttribute="trailing" constant="8" id="k6D-Bq-cE1"/>
+                    <constraint firstAttribute="bottom" secondItem="0ft-Ct-TpU" secondAttribute="bottom" constant="4" id="kiX-6I-TK4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="eventView" destination="0ft-Ct-TpU" id="vqD-Ce-FQ0"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="243"/>
+        </tableViewCell>
+    </objects>
+</document>

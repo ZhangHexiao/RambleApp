@@ -1,0 +1,2 @@
+git "https://bitbucket.org/GuaranaM/grnframework" ~> 1.5.2
+git "https://bitbucket.org/GuaranaM/grnforceupdate" ~> 2.0

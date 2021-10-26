@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="EventDetailsListFriendsCell" rowHeight="74" id="KCx-Nd-si0" customClass="EventDetailsListFriendsCell" customModule="ramble_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KCx-Nd-si0" id="Syb-Cj-IzE">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nwg-pE-ckw" userLabel="background" customClass="RMBCardView" customModule="ramble_ios" customModuleProvider="target">
+                        <rect key="frame" x="8" y="0.0" width="359" height="75.5"/>
+                        <subviews>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="edd-eV-7SP" userLabel="Separator">
+                                <rect key="frame" x="16" y="5" width="327" height="1"/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.2470588235" blue="0.25490196079999999" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="WRM-OF-Ed8"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FJC-Ej-xbG" customClass="OnlyHorizontalPictures" customModule="ramble_ios" customModuleProvider="target">
+                                <rect key="frame" x="16" y="14" width="233" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1uE-jz-rYm"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dfg-4P-0wi">
+                                <rect key="frame" x="273" y="14" width="70" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="JpL-Bm-JlO"/>
+                                    <constraint firstAttribute="height" constant="40" id="YJF-2J-hs6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="12"/>
+                                <state key="normal" title="See">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionSeeAll" destination="KCx-Nd-si0" eventType="touchUpInside" id="Pz9-la-hAS"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_right_indicator" translatesAutoresizingMaskIntoConstraints="NO" id="8XY-ev-GyL" customClass="RMBRoundImage" customModule="ramble_ios" customModuleProvider="target">
+                                <rect key="frame" x="327" y="26" width="16" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="GOO-lp-k9V"/>
+                                    <constraint firstAttribute="width" constant="16" id="kgT-5n-wrw"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Dfg-4P-0wi" firstAttribute="centerY" secondItem="FJC-Ej-xbG" secondAttribute="centerY" id="EDm-bD-OUX"/>
+                            <constraint firstItem="edd-eV-7SP" firstAttribute="top" secondItem="Nwg-pE-ckw" secondAttribute="top" constant="5" id="FK7-US-TS2"/>
+                            <constraint firstItem="8XY-ev-GyL" firstAttribute="trailing" secondItem="Dfg-4P-0wi" secondAttribute="trailing" id="GpI-fX-7lT"/>
+                            <constraint firstItem="FJC-Ej-xbG" firstAttribute="top" secondItem="edd-eV-7SP" secondAttribute="bottom" constant="8" id="Pt8-8f-da3"/>
+                            <constraint firstAttribute="trailing" secondItem="edd-eV-7SP" secondAttribute="trailing" constant="16" id="QAt-ku-oS0"/>
+                            <constraint firstItem="8XY-ev-GyL" firstAttribute="centerY" secondItem="Dfg-4P-0wi" secondAttribute="centerY" id="Tnu-CL-jpd"/>
+                            <constraint firstItem="edd-eV-7SP" firstAttribute="leading" secondItem="Nwg-pE-ckw" secondAttribute="leading" constant="16" id="VZH-Ng-xSM"/>
+                            <constraint firstItem="Dfg-4P-0wi" firstAttribute="leading" secondItem="FJC-Ej-xbG" secondAttribute="trailing" constant="24" id="bNx-pX-nsU"/>
+                            <constraint firstAttribute="height" constant="75.5" id="dyy-0Q-2AO"/>
+                            <constraint firstAttribute="trailing" secondItem="Dfg-4P-0wi" secondAttribute="trailing" constant="16" id="iBn-GG-xC0"/>
+                            <constraint firstItem="FJC-Ej-xbG" firstAttribute="leading" secondItem="Nwg-pE-ckw" secondAttribute="leading" constant="16" id="kFJ-Ck-oxM"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="Nwg-pE-ckw" firstAttribute="leading" secondItem="Syb-Cj-IzE" secondAttribute="leading" constant="8" id="69W-Es-bjn"/>
+                    <constraint firstItem="Nwg-pE-ckw" firstAttribute="top" secondItem="Syb-Cj-IzE" secondAttribute="top" id="ViO-qQ-Qsc"/>
+                    <constraint firstAttribute="bottom" secondItem="Nwg-pE-ckw" secondAttribute="bottom" id="xHY-iu-Xzc"/>
+                    <constraint firstAttribute="trailing" secondItem="Nwg-pE-ckw" secondAttribute="trailing" constant="8" id="xTt-fr-lfz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="participantsPictures" destination="FJC-Ej-xbG" id="2cm-zk-iqv"/>
+                <outlet property="rmbBackgroundView" destination="Nwg-pE-ckw" id="ukb-pQ-91P"/>
+                <outlet property="seeButton" destination="Dfg-4P-0wi" id="vYr-TX-TdC"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="43"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_right_indicator" width="8" height="12"/>
+    </resources>
+</document>

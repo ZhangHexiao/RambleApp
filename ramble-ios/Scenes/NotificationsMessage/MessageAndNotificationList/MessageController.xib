@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MessageController" customModule="ramble_ios" customModuleProvider="target">
+            <connections>
+                <outlet property="emptyView" destination="byw-qQ-1az" id="CG1-jU-WAY"/>
+                <outlet property="segmentController" destination="dqQ-Hv-Gmb" id="lKP-FJ-4fs"/>
+                <outlet property="tableView" destination="dbi-P2-7d2" id="7vM-d0-a17"/>
+                <outlet property="titleView" destination="k3d-cz-fuq" id="y30-sC-fWp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="byw-qQ-1az" customClass="RMBBackgroundView" customModule="ramble_ios" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <tableView clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" bouncesZoom="NO" style="plain" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dbi-P2-7d2">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="sectionIndexBackgroundColor" red="0.058823529411764705" green="0.058823529411764705" blue="0.058823529411764705" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="MCs-Lm-1cy"/>
+                        <outlet property="delegate" destination="-1" id="6K6-kf-n55"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="dbi-P2-7d2" firstAttribute="bottom" secondItem="N93-7C-toC" secondAttribute="bottom" id="BKO-FW-O4U"/>
+                <constraint firstItem="dbi-P2-7d2" firstAttribute="trailing" secondItem="N93-7C-toC" secondAttribute="trailing" id="Xu8-93-DCC"/>
+                <constraint firstItem="byw-qQ-1az" firstAttribute="leading" secondItem="N93-7C-toC" secondAttribute="leading" id="dc8-NO-S5m"/>
+                <constraint firstItem="dbi-P2-7d2" firstAttribute="top" secondItem="N93-7C-toC" secondAttribute="top" id="euM-Ti-nEL"/>
+                <constraint firstItem="byw-qQ-1az" firstAttribute="bottom" secondItem="N93-7C-toC" secondAttribute="bottom" id="kpf-mk-qQb"/>
+                <constraint firstItem="byw-qQ-1az" firstAttribute="trailing" secondItem="N93-7C-toC" secondAttribute="trailing" id="kpy-A2-A5B"/>
+                <constraint firstItem="dbi-P2-7d2" firstAttribute="leading" secondItem="N93-7C-toC" secondAttribute="leading" id="oAB-Ya-PWv"/>
+                <constraint firstItem="byw-qQ-1az" firstAttribute="top" secondItem="N93-7C-toC" secondAttribute="top" id="xcy-vO-sC1"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="N93-7C-toC"/>
+            <point key="canvasLocation" x="139" y="154"/>
+        </view>
+        <view contentMode="scaleToFill" id="k3d-cz-fuq">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dqQ-Hv-Gmb">
+                    <rect key="frame" x="30" y="7" width="190" height="32"/>
+                    <color key="backgroundColor" red="0.12549019607843137" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <segments>
+                        <segment title="Messages"/>
+                        <segment title="Notifications"/>
+                    </segments>
+                    <color key="selectedSegmentTintColor" red="0.21568627450980393" green="0.21568627450980393" blue="0.21568627450980393" alpha="1" colorSpace="calibratedRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="didChangeSegment:" destination="-1" eventType="valueChanged" id="eUm-Q1-3Tf"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vm8-pO-ues" firstAttribute="bottom" secondItem="dqQ-Hv-Gmb" secondAttribute="bottom" constant="6" id="0Yz-1i-Sc4"/>
+                <constraint firstItem="dqQ-Hv-Gmb" firstAttribute="leading" secondItem="vm8-pO-ues" secondAttribute="leading" constant="30" id="5SW-Xn-3Hn"/>
+                <constraint firstItem="dqQ-Hv-Gmb" firstAttribute="top" secondItem="vm8-pO-ues" secondAttribute="top" constant="7" id="JYB-J7-Lpd"/>
+                <constraint firstItem="vm8-pO-ues" firstAttribute="trailing" secondItem="dqQ-Hv-Gmb" secondAttribute="trailing" constant="30" id="uC8-eI-bPy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vm8-pO-ues"/>
+            <point key="canvasLocation" x="138.75" y="-222.88732394366198"/>
+        </view>
+    </objects>
+</document>

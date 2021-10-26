@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="xhq-ey-S3z" customClass="TicketView" customModule="ramble_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="418"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Ticket 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KP2-Sg-xcZ">
+                    <rect key="frame" x="16" y="16" width="310" height="26"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="$ 25.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdU-ut-k8R">
+                    <rect key="frame" x="331" y="16" width="67" height="23"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Ticket name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zF9-mo-CP8">
+                    <rect key="frame" x="16" y="42" width="382" height="23.666666666666671"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                    <color key="textColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QRCode" translatesAutoresizingMaskIntoConstraints="NO" id="nk3-y1-Axb">
+                    <rect key="frame" x="117" y="115.66666666666669" width="180" height="180"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="EwQ-O3-AyR"/>
+                        <constraint firstAttribute="width" constant="180" id="ZtR-2E-Pal"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="tdU-ut-k8R" firstAttribute="top" secondItem="YOH-er-iH3" secondAttribute="top" constant="16" id="7Dy-sq-gu9"/>
+                <constraint firstItem="zF9-mo-CP8" firstAttribute="top" secondItem="KP2-Sg-xcZ" secondAttribute="bottom" id="81u-Dc-aNB"/>
+                <constraint firstItem="KP2-Sg-xcZ" firstAttribute="top" secondItem="YOH-er-iH3" secondAttribute="top" constant="16" id="Bhu-gj-x9a"/>
+                <constraint firstItem="nk3-y1-Axb" firstAttribute="centerX" secondItem="xhq-ey-S3z" secondAttribute="centerX" id="GPG-gB-eWq"/>
+                <constraint firstItem="YOH-er-iH3" firstAttribute="trailing" secondItem="tdU-ut-k8R" secondAttribute="trailing" constant="16" id="KoU-7c-u79"/>
+                <constraint firstItem="tdU-ut-k8R" firstAttribute="leading" secondItem="KP2-Sg-xcZ" secondAttribute="trailing" constant="5" id="M7B-u8-pp1"/>
+                <constraint firstItem="zF9-mo-CP8" firstAttribute="leading" secondItem="YOH-er-iH3" secondAttribute="leading" constant="16" id="Rhq-Kg-evV"/>
+                <constraint firstItem="YOH-er-iH3" firstAttribute="trailing" secondItem="zF9-mo-CP8" secondAttribute="trailing" constant="16" id="Tth-6r-IXC"/>
+                <constraint firstItem="nk3-y1-Axb" firstAttribute="top" secondItem="zF9-mo-CP8" secondAttribute="bottom" constant="50" id="fMQ-hc-H35"/>
+                <constraint firstItem="KP2-Sg-xcZ" firstAttribute="leading" secondItem="YOH-er-iH3" secondAttribute="leading" constant="16" id="t7t-HF-zCt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="YOH-er-iH3"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="16"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="NO"/>
+                <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                    <real key="value" value="4"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                    <color key="value" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                    <real key="value" value="1"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                    <point key="value" x="2" y="0.0"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="codeImageView" destination="nk3-y1-Axb" id="1Qc-UY-eaf"/>
+                <outlet property="nameLabel" destination="zF9-mo-CP8" id="Foi-Tl-nbK"/>
+                <outlet property="priceLabel" destination="tdU-ut-k8R" id="PQf-Xw-C6G"/>
+                <outlet property="ticketLabel" destination="KP2-Sg-xcZ" id="8e5-tb-SXS"/>
+            </connections>
+            <point key="canvasLocation" x="204" y="-295"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="QRCode" width="180" height="180"/>
+    </resources>
+</document>

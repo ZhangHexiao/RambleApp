@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  ramble-ios
+
+  Created by Omran on 2019-02-01.
+  Copyright © 2019 Ramble Technologies Inc. All rights reserved.
+*/
+
+"NSCameraUsageDescription" = "Ramble utilise la caméra pour ajouter des photos de profil et des images d’événements";
+"NSLocationWhenInUseUsageDescription" = "Ramble utilise votre position pour afficher des événements autour de vous.";
+"NSPhotoLibraryUsageDescription" = "Ramble utilise la librairie pour ajouter des photos de profil et des images d’événements";

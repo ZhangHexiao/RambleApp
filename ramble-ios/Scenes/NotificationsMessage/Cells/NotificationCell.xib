@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="NotificationCell" rowHeight="98" id="dqC-Ne-mAh" customClass="NotificationCell" customModule="ramble_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="359" height="98"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dqC-Ne-mAh" id="5RB-dM-Hxk">
+                <rect key="frame" x="0.0" y="0.0" width="359" height="98"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xhy-ZG-hBD" userLabel="background" customClass="RMBCardView" customModule="ramble_ios" customModuleProvider="target">
+                        <rect key="frame" x="8" y="0.0" width="343" height="98"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q3H-8c-QDp" userLabel="Separator">
+                                <rect key="frame" x="8" y="97.5" width="327" height="0.5"/>
+                                <color key="backgroundColor" red="0.23137254901960785" green="0.24705882352941178" blue="0.25490196078431371" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="BOZ-lb-d6r"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Q3H-8c-QDp" secondAttribute="trailing" constant="8" id="0X3-LU-UHM"/>
+                            <constraint firstItem="Q3H-8c-QDp" firstAttribute="leading" secondItem="xhy-ZG-hBD" secondAttribute="leading" constant="8" id="Yhh-nD-Vnf"/>
+                            <constraint firstAttribute="bottom" secondItem="Q3H-8c-QDp" secondAttribute="bottom" id="fRU-Xv-QdI"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1id-gk-lh2" customClass="RMBRoundImage" customModule="ramble_ios" customModuleProvider="target">
+                        <rect key="frame" x="23" y="20" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="DxE-0y-TAV"/>
+                            <constraint firstAttribute="height" constant="24" id="bFS-fq-ujg"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friend name is interested by the event Event name." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sgu-6l-cGn">
+                        <rect key="frame" x="55" y="16" width="296" height="42.5"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="1 minute ago" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1OJ-Xh-YmU">
+                        <rect key="frame" x="55" y="63.5" width="296" height="18.5"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.050980392156862744" green="0.050980392156862744" blue="0.050980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="xhy-ZG-hBD" firstAttribute="leading" secondItem="5RB-dM-Hxk" secondAttribute="leading" constant="8" id="2y6-ze-km4"/>
+                    <constraint firstItem="Sgu-6l-cGn" firstAttribute="leading" secondItem="1id-gk-lh2" secondAttribute="trailing" constant="8" id="DPc-yo-w6S"/>
+                    <constraint firstAttribute="bottom" secondItem="xhy-ZG-hBD" secondAttribute="bottom" id="Grw-fB-n3o"/>
+                    <constraint firstItem="1OJ-Xh-YmU" firstAttribute="leading" secondItem="Sgu-6l-cGn" secondAttribute="leading" id="Pjb-bh-qaf"/>
+                    <constraint firstAttribute="trailing" secondItem="1OJ-Xh-YmU" secondAttribute="trailing" constant="8" id="UcE-mZ-Lbx"/>
+                    <constraint firstItem="Sgu-6l-cGn" firstAttribute="top" secondItem="5RB-dM-Hxk" secondAttribute="top" constant="16" id="ZTq-qn-HpW"/>
+                    <constraint firstAttribute="trailing" secondItem="Sgu-6l-cGn" secondAttribute="trailing" constant="8" id="blz-sD-5u6"/>
+                    <constraint firstAttribute="trailing" secondItem="xhy-ZG-hBD" secondAttribute="trailing" constant="8" id="cUg-oT-Uby"/>
+                    <constraint firstItem="1id-gk-lh2" firstAttribute="leading" secondItem="5RB-dM-Hxk" secondAttribute="leadingMargin" constant="8" id="kNB-eW-S9U"/>
+                    <constraint firstItem="1id-gk-lh2" firstAttribute="top" secondItem="5RB-dM-Hxk" secondAttribute="top" constant="20" id="mQr-bw-GSo"/>
+                    <constraint firstItem="1OJ-Xh-YmU" firstAttribute="top" secondItem="Sgu-6l-cGn" secondAttribute="bottom" constant="5" id="tPq-bM-sIU"/>
+                    <constraint firstItem="xhy-ZG-hBD" firstAttribute="top" secondItem="5RB-dM-Hxk" secondAttribute="top" id="vtq-dr-JIq"/>
+                    <constraint firstAttribute="bottom" secondItem="1OJ-Xh-YmU" secondAttribute="bottom" constant="16" id="xUP-N3-XTi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="background" destination="xhy-ZG-hBD" id="ikW-tR-r3s"/>
+                <outlet property="contentLabel" destination="Sgu-6l-cGn" id="Hvp-2F-awN"/>
+                <outlet property="dateLabel" destination="1OJ-Xh-YmU" id="WVo-4f-LDB"/>
+                <outlet property="notificationImage" destination="1id-gk-lh2" id="LrP-Gp-bt2"/>
+                <outlet property="separator" destination="Q3H-8c-QDp" id="f0X-7C-vPA"/>
+            </connections>
+            <point key="canvasLocation" x="125.59999999999999" y="212.29385307346328"/>
+        </tableViewCell>
+    </objects>
+</document>

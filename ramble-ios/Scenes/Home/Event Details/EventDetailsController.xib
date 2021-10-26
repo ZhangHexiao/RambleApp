@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EventDetailsController" customModule="ramble_ios" customModuleProvider="target">
+            <connections>
+                <outlet property="bottomView" destination="OGe-Mr-oYf" id="PwZ-Ne-eeE"/>
+                <outlet property="bottomViewHeight" destination="czB-Ic-0e6" id="Eq9-2I-4iy"/>
+                <outlet property="tableView" destination="77C-Xz-V4E" id="ZzK-Pt-OWZ"/>
+                <outlet property="view" destination="pmy-aN-dgh" id="dKG-dn-ZwY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="pmy-aN-dgh" customClass="RMBBackgroundView" customModule="ramble_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="77C-Xz-V4E">
+                    <rect key="frame" x="0.0" y="20" width="375" height="577"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OGe-Mr-oYf" userLabel="Bottom View" customClass="EventDetailsBottomView" customModule="ramble_ios" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="597" width="375" height="70"/>
+                    <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="czB-Ic-0e6"/>
+                    </constraints>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FBL-Eh-sDO" userLabel="Bottom Bottom View">
+                    <rect key="frame" x="0.0" y="667" width="375" height="0.0"/>
+                    <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="9Kr-Fh-AJz" firstAttribute="trailing" secondItem="OGe-Mr-oYf" secondAttribute="trailing" id="8dl-SG-V7V"/>
+                <constraint firstItem="FBL-Eh-sDO" firstAttribute="top" secondItem="OGe-Mr-oYf" secondAttribute="bottom" id="GDL-Da-Sku"/>
+                <constraint firstAttribute="bottom" secondItem="FBL-Eh-sDO" secondAttribute="bottom" id="K1f-kP-zuy"/>
+                <constraint firstItem="77C-Xz-V4E" firstAttribute="leading" secondItem="9Kr-Fh-AJz" secondAttribute="leading" id="SmE-3X-Vle"/>
+                <constraint firstAttribute="trailing" secondItem="FBL-Eh-sDO" secondAttribute="trailing" id="VdC-fa-HJo"/>
+                <constraint firstItem="OGe-Mr-oYf" firstAttribute="leading" secondItem="9Kr-Fh-AJz" secondAttribute="leading" id="Zrm-4v-R7D"/>
+                <constraint firstItem="9Kr-Fh-AJz" firstAttribute="trailing" secondItem="77C-Xz-V4E" secondAttribute="trailing" id="aYE-Bm-nEP"/>
+                <constraint firstItem="9Kr-Fh-AJz" firstAttribute="bottom" secondItem="OGe-Mr-oYf" secondAttribute="bottom" id="gN4-gK-FZM"/>
+                <constraint firstItem="FBL-Eh-sDO" firstAttribute="leading" secondItem="pmy-aN-dgh" secondAttribute="leading" id="lgU-SC-aFX"/>
+                <constraint firstItem="OGe-Mr-oYf" firstAttribute="top" secondItem="77C-Xz-V4E" secondAttribute="bottom" id="oGC-Cl-kgG"/>
+                <constraint firstItem="77C-Xz-V4E" firstAttribute="top" secondItem="9Kr-Fh-AJz" secondAttribute="top" id="sRc-sL-viW"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="9Kr-Fh-AJz"/>
+            <point key="canvasLocation" x="42.399999999999999" y="63.418290854572717"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="HomeEmptyCell" rowHeight="300" id="T8f-sv-8MB" customClass="HomeEmptyCell" customModule="ramble_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T8f-sv-8MB" id="VF1-gq-t4e">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There are no events. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XX3-T6-FJV">
+                        <rect key="frame" x="40" y="167" width="295" height="26"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try changing filters or create your own experience" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyw-Sr-5xQ" userLabel="SubTitle">
+                        <rect key="frame" x="45" y="197" width="285" height="42"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.050980392156862744" green="0.050980392156862744" blue="0.050980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="yyw-Sr-5xQ" firstAttribute="bottom" secondItem="VF1-gq-t4e" secondAttribute="bottomMargin" id="2Ba-ls-xHQ"/>
+                    <constraint firstItem="XX3-T6-FJV" firstAttribute="leading" secondItem="VF1-gq-t4e" secondAttribute="leading" constant="40" id="774-S2-f93"/>
+                    <constraint firstItem="yyw-Sr-5xQ" firstAttribute="topMargin" secondItem="XX3-T6-FJV" secondAttribute="bottom" constant="12" id="YAb-le-heR"/>
+                    <constraint firstItem="yyw-Sr-5xQ" firstAttribute="leading" secondItem="VF1-gq-t4e" secondAttribute="leadingMargin" constant="30" id="f4w-Ww-qHc"/>
+                    <constraint firstAttribute="trailing" secondItem="XX3-T6-FJV" secondAttribute="trailing" constant="40" id="le7-hB-KUr"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="yyw-Sr-5xQ" secondAttribute="trailing" constant="30" id="uTt-ff-KxG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="emptyLabel" destination="XX3-T6-FJV" id="ho4-4H-1jq"/>
+                <outlet property="subTitle" destination="yyw-Sr-5xQ" id="DHo-jM-VdP"/>
+            </connections>
+            <point key="canvasLocation" x="349.60000000000002" y="-67.466266866566727"/>
+        </tableViewCell>
+    </objects>
+</document>

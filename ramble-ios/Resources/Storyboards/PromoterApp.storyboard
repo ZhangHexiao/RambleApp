@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="adl-af-Yex">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pop Promoter Controller-->
+        <scene sceneID="8ss-HS-vw9">
+            <objects>
+                <viewController storyboardIdentifier="PopPromoterController" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="adl-af-Yex" customClass="PopPromoterController" customModule="ramble_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6kY-mF-311">
+                        <rect key="frame" x="0.0" y="0.0" width="411" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jqE-Fo-Ggs">
+                                <rect key="frame" x="47" y="100" width="317" height="380"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upg-g8-DGN">
+                                        <rect key="frame" x="30" y="50" width="257" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="Ypd-gE-KdV"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="GET YOUR ACT ">
+                                                <attributes>
+                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <font key="NSFont" size="38" name="Helvetica-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="0.84999999999999998" tighteningFactorForTruncation="0.80000001192092896"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4x-M2-ml7">
+                                        <rect key="frame" x="32" y="130" width="253" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="72U-cm-u5D"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Use the Creator ">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.58039215686274503" green="0.58039215686274503" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="24" name="Helvetica"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="1" lineHeightMultiple="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fg6-v4-NNb">
+                                        <rect key="frame" x="75" y="300" width="167" height="50"/>
+                                        <color key="backgroundColor" red="1" green="0.39215686274509803" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="lQk-0M-Tld"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                        <state key="normal" title=" Learn More">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value=" Learn More"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="goAppStore:" destination="adl-af-Yex" eventType="touchUpInside" id="Rqm-vu-azC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVq-QO-nlL">
+                                        <rect key="frame" x="267" y="20" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.94059445703031053" green="0.94390059372450952" blue="0.9538190038071066" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="aRI-ZH-jRw"/>
+                                            <constraint firstAttribute="height" constant="30" id="nCq-7C-sog"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="closebutton"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="closeView:" destination="adl-af-Yex" eventType="touchUpInside" id="0kC-gD-X8C"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.94757514890316297" green="0.95090582233727061" blue="0.96089784263959388" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="fg6-v4-NNb" firstAttribute="leading" secondItem="jqE-Fo-Ggs" secondAttribute="leading" constant="75" id="5br-YV-wEN"/>
+                                    <constraint firstItem="upg-g8-DGN" firstAttribute="leading" secondItem="jqE-Fo-Ggs" secondAttribute="leading" constant="30" id="Bbw-l6-MF0"/>
+                                    <constraint firstItem="upg-g8-DGN" firstAttribute="top" secondItem="jqE-Fo-Ggs" secondAttribute="top" constant="50" id="HoX-D6-C3M"/>
+                                    <constraint firstAttribute="trailing" secondItem="fg6-v4-NNb" secondAttribute="trailing" constant="75" id="LEm-vh-Pkb"/>
+                                    <constraint firstAttribute="trailing" secondItem="m4x-M2-ml7" secondAttribute="trailing" constant="32" id="PD2-EN-o2B" userLabel="trailing = Pop Content.trailing + 30"/>
+                                    <constraint firstItem="m4x-M2-ml7" firstAttribute="leading" secondItem="jqE-Fo-Ggs" secondAttribute="leading" constant="32" id="VlM-3V-Cjl"/>
+                                    <constraint firstAttribute="height" constant="380" id="jQf-Ar-POv"/>
+                                    <constraint firstAttribute="trailing" secondItem="upg-g8-DGN" secondAttribute="trailing" constant="30" id="kpU-hJ-IBG"/>
+                                    <constraint firstItem="gVq-QO-nlL" firstAttribute="top" secondItem="jqE-Fo-Ggs" secondAttribute="top" constant="20" id="qjd-bC-Zot"/>
+                                    <constraint firstAttribute="bottom" secondItem="fg6-v4-NNb" secondAttribute="bottom" constant="30" id="sCJ-8y-9KC"/>
+                                    <constraint firstAttribute="trailing" secondItem="gVq-QO-nlL" secondAttribute="trailing" constant="20" id="sHM-ZN-vN1"/>
+                                    <constraint firstItem="m4x-M2-ml7" firstAttribute="top" secondItem="upg-g8-DGN" secondAttribute="bottom" id="vqe-p8-YtD"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.76000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="nUx-2h-TCE" firstAttribute="trailing" secondItem="jqE-Fo-Ggs" secondAttribute="trailing" constant="47" id="7qb-RY-KM8"/>
+                            <constraint firstItem="jqE-Fo-Ggs" firstAttribute="leading" secondItem="nUx-2h-TCE" secondAttribute="leading" constant="47" id="9CR-Uh-CWj"/>
+                            <constraint firstItem="jqE-Fo-Ggs" firstAttribute="centerX" secondItem="6kY-mF-311" secondAttribute="centerX" id="Fr3-01-I0V"/>
+                            <constraint firstItem="jqE-Fo-Ggs" firstAttribute="top" secondItem="nUx-2h-TCE" secondAttribute="top" constant="100" id="z7C-bM-nO2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nUx-2h-TCE"/>
+                    </view>
+                    <size key="freeformSize" width="411" height="896"/>
+                    <connections>
+                        <outlet property="closeButton" destination="gVq-QO-nlL" id="scG-7d-NcR"/>
+                        <outlet property="goAppStore" destination="fg6-v4-NNb" id="00g-yJ-F6i"/>
+                        <outlet property="popContent" destination="m4x-M2-ml7" id="2QS-HG-UUh"/>
+                        <outlet property="popTitle" destination="upg-g8-DGN" id="MRw-qX-YCW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aj7-Qh-VcO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-434.39999999999998" y="-32.383808095952027"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="closebutton" width="15" height="15"/>
+    </resources>
+</document>

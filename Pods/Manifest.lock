@@ -1,0 +1,143 @@
+PODS:
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts-Swift (1.5.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - BSStackView (1.0.0)
+  - DTPhotoViewerController (1.2.4)
+  - FBSDKCoreKit (5.15.0):
+    - FBSDKCoreKit/Basics (= 5.15.0)
+    - FBSDKCoreKit/Core (= 5.15.0)
+  - FBSDKCoreKit/Basics (5.15.0)
+  - FBSDKCoreKit/Core (5.15.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.15.0):
+    - FBSDKLoginKit/Login (= 5.15.0)
+  - FBSDKLoginKit/Login (5.15.0):
+    - FBSDKCoreKit (~> 5.0)
+  - GoogleMaps/Base (3.0.0)
+  - GooglePlaces (3.0.0):
+    - GoogleMaps/Base (= 3.0.0)
+  - InputBarAccessoryView (4.2.2)
+  - IQKeyboardManagerSwift (6.5.5)
+  - JTAppleCalendar (7.1.8)
+  - JVFloatLabeledTextField (1.2.1)
+  - Mapbox-iOS-SDK (5.2.0)
+  - MapboxGeocoder.swift (0.12.0)
+  - MessageKit (3.0.0):
+    - InputBarAccessoryView (~> 4.2.2)
+  - Parse (1.17.3):
+    - Parse/Core (= 1.17.3)
+  - Parse/Core (1.17.3):
+    - Bolts/Tasks (~> 1.9)
+  - Parse/FacebookUtils (1.17.3):
+    - Bolts (~> 1.9)
+    - FBSDKLoginKit (~> 5.x)
+    - Parse/Core
+  - ParseLiveQuery (2.7.0):
+    - Bolts (~> 1.9.0)
+    - Bolts-Swift (~> 1.5.0)
+    - Parse (~> 1.17.3)
+    - Starscream (~> 3.1.0)
+  - PromiseKit (6.2.6):
+    - PromiseKit/CorePromise (= 6.2.6)
+    - PromiseKit/Foundation (= 6.2.6)
+    - PromiseKit/UIKit (= 6.2.6)
+  - PromiseKit/CorePromise (6.2.6)
+  - PromiseKit/Foundation (6.2.6):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.2.6):
+    - PromiseKit/CorePromise
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - Starscream (3.1.1)
+  - Stripe (19.1.1)
+  - SVProgressHUD (2.2.5)
+  - TOCropViewController (2.3.6)
+
+DEPENDENCIES:
+  - BSStackView (= 1.0.0)
+  - DTPhotoViewerController (= 1.2.4)
+  - FBSDKCoreKit
+  - GooglePlaces (= 3.0.0)
+  - IQKeyboardManagerSwift
+  - JTAppleCalendar (~> 7.1.7)
+  - JVFloatLabeledTextField (from `https://github.com/ThiagoOrniz/JVFloatLabeledTextField.git`)
+  - Mapbox-iOS-SDK (= 5.2)
+  - MapboxGeocoder.swift (~> 0.10)
+  - MessageKit
+  - Parse
+  - Parse/FacebookUtils
+  - ParseLiveQuery
+  - PromiseKit (= 6.2.6)
+  - SDWebImage (= 4.4.1)
+  - Stripe
+  - SVProgressHUD
+  - TOCropViewController (= 2.3.6)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Bolts
+    - Bolts-Swift
+    - BSStackView
+    - DTPhotoViewerController
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - GoogleMaps
+    - GooglePlaces
+    - InputBarAccessoryView
+    - IQKeyboardManagerSwift
+    - JTAppleCalendar
+    - Mapbox-iOS-SDK
+    - MapboxGeocoder.swift
+    - MessageKit
+    - Parse
+    - ParseLiveQuery
+    - PromiseKit
+    - SDWebImage
+    - Starscream
+    - Stripe
+    - SVProgressHUD
+    - TOCropViewController
+
+EXTERNAL SOURCES:
+  JVFloatLabeledTextField:
+    :git: https://github.com/ThiagoOrniz/JVFloatLabeledTextField.git
+
+CHECKOUT OPTIONS:
+  JVFloatLabeledTextField:
+    :commit: 1afafca0d0df594e31ab2254cf9efe9c29072028
+    :git: https://github.com/ThiagoOrniz/JVFloatLabeledTextField.git
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Bolts-Swift: afbbaf8c8186e7f769be4afa656949c14087ba44
+  BSStackView: cda64a4e533bf670e2218bc33f67397b616c03cc
+  DTPhotoViewerController: 0f49059256127e93431209da6fc945814daf441b
+  FBSDKCoreKit: 083ba8c8e37939c0b4c84250654c9be0aef0c2f8
+  FBSDKLoginKit: bd40354a96e4718765713ef225bc368f10dc395d
+  GoogleMaps: 0b9ff63b04417713d2927b19529a04bd561a1a6c
+  GooglePlaces: f311f3b72c2943f8e5480965d71541a0778a081e
+  InputBarAccessoryView: 2b937602598e2fab3149f37f51dd7ad795653812
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  JTAppleCalendar: b7fb40852f5f319fe55c8ec3861f1de0edc99cc8
+  JVFloatLabeledTextField: cfc44e3c4d493b2ed92ede8035e8e89c2912ba64
+  Mapbox-iOS-SDK: 3e095b305126d52ba166fe215d847b15b6fbee63
+  MapboxGeocoder.swift: e8ca1fcdfb8f674cad390569199dccf3d807ff77
+  MessageKit: e892a9ca49ebe6d82684d3a93ad84021fa23e2c6
+  Parse: c1ad2a04d2cab2b54b6fb7da05f741abf2cf57d1
+  ParseLiveQuery: f251b75fb8941c95b8948837a4685836a72f7f18
+  PromiseKit: 8245cb2e3a8fe00453e580bd4aafb57e1671f501
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  Stripe: e4599b6570d82548c62b8d6b7b200241856a2be7
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TOCropViewController: 6d972f2c609372312648f96758e13a7f689efbc0
+
+PODFILE CHECKSUM: a3cb294986b43ec4c1fa9701416117d03dd7b143
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,416 @@
+/* 
+  Localizable.strings
+
+  Created by Benjamin Bourasseau on 13/06/2016.
+  Copyright © 2016 Ramble Technologies Inc. All rights reserved.
+*/
+
+// ----------------------------------------------------
+
+// Date format
+
+"weekdayMonthDayFormat" = "EEEE, MMM d";
+
+// Notifications
+
+"You don't have notifications yet. Come back later!" = "You don't have notifications yet.\nCome back later!";
+
+"invitation" = "%@ invited to you the event %@.";
+"friendInterested" = "%@ is interested by %@.";
+"eventStarting" = "%@ is starting within the next 24 hours.";
+"eventCancelled" = "%@ has been cancelled.";
+"eventCancelledRefunded" = "%@ has been cancelled, tickets will be refunded.";
+
+"eventModified" = "%@ has been modified: date, time or address.";
+"eventModifiedLocation" = "%@ has been modified: address.";
+"eventModifiedLocationDate" = "%@ has been modified: date and address.";
+"eventModifiedLocationDateTime" = "%@ has been modified: date, time or address.";
+"eventModifiedLocationTime" = "%@ has been modified: time and address.";
+"eventModifiedDate" = "%@ has been modified: date.";
+"eventModifiedDateTime" = "%@ has been modified: date and time.";
+"eventModifiedTime" = "%@ has been modified: time.";
+"receiveMessage" = "You have received a Ramble message";
+
+
+// Errors
+
+"Something went wrong" = "Something went wrong";
+"Email is mandatory" = "Email is mandatory";
+"Please enter a valid email address" = "Please enter a valid email address";
+"Invalid email" = "Invalid email";
+"Please enter your password" = "Please enter your password";
+"Password is mandatory" = "Password is mandatory";
+"Invalid Password" = "Invalid Password";
+"Field is mandatory" = "Field is mandatory";
+"Invalid field" = "Invalid field";
+"User is wrong" = "User is wrong";
+"There is no Facebook account linked." = "There is no Facebook account linked.";
+"Error getting friends" = "Error getting friends";
+"Something went wrong connecting with facebook" = "Something went wrong connecting with facebook";
+"You have reported this user before." = "You have reported this user before.";
+"Couldn't get tax" = "Couldn't get tax";
+"Couldn't buy tickets" = "Couldn't buy tickets";
+"Session has expired" = "Session has expired";
+"Can't delete because someone is already interested in this event" = "Can't delete because someone is already interested in this event";
+"Couldn't fetch events" = "Couldn't fetch events";
+"You have reported this event before." = "You have reported this event before.";
+"Couldn't fetch tickets" = "Couldn't fetch tickets";
+"Couldn't fetch notifications" = "Couldn't fetch notifications";
+
+"Event name is empty/invalid." = "Event name is empty/invalid.";
+"Event title is empty/invalid." = "Event title is empty/invalid.";
+"Please add an image." = "Please add an image.";
+"Please select a category." = "Please select a category.";
+"Please select a start date." = "Please select a start date.";
+"Please select an end date." = "Please select an end date.";
+"Start date can't be after end date" = "Start date can't be after end date";
+"End date can't be before start date" = "End date can't be before start date";
+"Please select the location" = "Please select the location";
+"Please add a description" = "Please add a description";
+"Web must start with http://" = "Web must start with http://";
+"Can't select past date" = "Can't select past date";
+"Couldn't retrieve user's location" = "Couldn't retrieve user's location";
+"Couldn't fetch data, try again later" = "Couldn't fetch data, try again later";
+"Please select a ticket" = "Please select a ticket";
+"This event has been blocked for inappropriate content. Come back later" = "This event has been blocked for inappropriate content. Come back later";
+"Please allow user location" = "Please allow user location";
+
+"You can't change password for your Facebook account" = "You can't change password for your Facebook account";
+"Values can't be empty" = "Values can't be empty";
+"Please enter old passord" = "Please enter old passord";
+"Please enter new password" = "Please enter new password";
+"Old password can't be empty" = "Old password can't be empty";
+"New password can't be empty" = "New password can't be empty";
+"New password entries don't match" = "New password entries don't match";
+"Please add a credit card" = "Please add a credit card";
+"Please enter phone number" = "Please enter phone number";
+"Phone number can't be empty" = "Phone number can't be empty";
+
+"Please type message" = "Please type message";
+"Couldn't invite friend" = "Couldn't invite friend";
+"Couldn't fetch chat messages" = "Couldn't fetch chat messages";
+"Couldn't send chat messages" = "Couldn't send chat messages";
+
+// App Alert and Action Sheets
+
+"Are you sure?" = "Are you sure?";
+"You will be disconnected from your account" = "You will be disconnected from your account";
+"Continue" = "Continue";
+"Do you want to cancel this event?" = "Do you want to cancel this event?";
+"Do you want to delete this event?" = "Do you want to delete this event?";
+"Blocked event" = "Blocked event";
+"This event has been blocked due to inappropriate content. No one can see it. To resolve this issue, contact the admin team" = "This event has been blocked due to inappropriate content. No one can see it. To resolve this issue, contact the admin team";
+"Fill your email address" = "Fill your email address";
+"You need to activate location service to use this feature. Please turn on GPS mode in location settings" = "You need to activate location service to use this feature. Please turn on GPS mode in location settings";
+"Settings" = "Settings";
+"Ok" = "Ok";
+"Cancel" = "Cancel";
+"Maybe later" = "Maybe later";
+"Contact admin" = "Contact admin";
+"Send" = "Send";
+"Post" = "Post";
+
+"Open with..." = "Open with...";
+"Report inappropriate content" = "Report inappropriate content";
+"Rate this experience" = "Rate this experience";
+"Edit event" = "Edit event";
+"Cancel event" = "Cancel event";
+"Delete event" = "Delete event";
+"Maps" = "Maps";
+"Google Maps" = "Google Maps";
+"Take Photo" = "Take Photo";
+"Choose from Library" = "Choose from Library";
+"Remove image" = "Remove image";
+
+"Report Inappropriate cover picture" = "Report Inappropriate cover picture";
+"Report Inappropriate profile picture" = "Report Inappropriate profile picture";
+"Share this experience" = "Share this experience";
+
+
+// EventView
+
+"Blocked" = "Blocked";
+"Cancelled" = "Cancelled";
+"Interested" = "Interested";
+"Created" = "Created";
+"My tickets" = "My tickets";
+
+
+// Auth
+
+"An email has been sent to resent password." = "An email has been sent to reset password.";
+
+// Connection View
+"CREATE A NEW ACCOUNT" = "CREATE A NEW ACCOUNT";
+"I HAVE AN ACCOUNT" = "I HAVE AN ACCOUNT";
+"Continue as guest" = "Continue as guest";
+
+// Signup and Login View
+"Create a New Account" = "Create a New Account";
+"Sign up with Facebook" = "Sign up with Facebook";
+"Log in with Facebook" = "Log in with Facebook";
+
+"or" = "or";
+"Sign up with your email address" = "Sign up with your email address";
+
+"Email address" = "Email address";
+"Password" = "Password";
+
+"by creating an account, you agree our terms and conditions" = "by creating an account, you agree our terms and conditions";
+
+"Forgot your password?" = "Forgot your password?";
+
+"Sign up" = "Sign up";
+"Log in" = "Log in";
+
+
+// Payment
+
+"Get Tickets" = "Get Tickets";
+"Please select a ticket" = "Please select a ticket";
+"Go to payment" = "Go to payment";
+"Sold out" = "Sold out";
+"tickets left" = "tickets left";
+"Free" = "Free";
+"Credit Card" = "Credit Card";
+
+"Save" = "Save";
+"Card number" = "Card number";
+"CVV" = "CVV";
+"Expiration date" = "Expiration date";
+"Card holder name" = "Card holder name";
+"Card created" = "Card created";
+"Payment" = "Payment";
+"Ticket(s) bought!" =  "Ticket(s) bought!";
+"No credit card" = "No credit card";
+"Change" = "Change";
+"Add" = "Add";
+"Please add a credit card" = "Please add a credit card";
+"Tickets" = "Tickets";
+"Couldn't get code to share" = "Couldn't get code to share";
+"Subtotal" = "Subtotal";
+
+"Starting soon" = "Starting soon";
+
+"see" = "See %@";
+"Buy ticket(s)" = "Buy %@ ticket(s)";
+
+
+// Event Creation
+
+"New Event!" = "New Event!";
+"Event updated!" = "Event updated!";
+"Create New Event" = "Create New Event";
+"Edit Event" = "Edit Event";
+"Starts now" = "Starts now";
+"Starts" = "Starts";
+"Ends" = "Ends";
+"tickets" = "tickets";
+
+// Event Creation validations
+
+"Event name is empty/invalid." = "Event name is empty/invalid.";
+"Please add an image." = "Please add an image.";
+"Please select a category." = "Please select a category.";
+"Please select a start date." = "Please select a start date.";
+"Please select an end date." = "Please select an end date.";
+"Start date can't be after end date" = "Start date can't be after end date";
+"End date can't be before start date" = "End date can't be before start date";
+"Please select the location" = "Please select the location";
+"Please add a description" = "Please add a description";
+"Web must start with http://" = "Web must start with http://";
+
+"Event name" = "Event name";
+"Category" = "Category";
+"Start date" = "Start date";
+"End date" = "End date";
+"Location" = "Location";
+"Description" = "Description";
+"Booking required" = "Booking required";
+"Number of available tickets (optional)" = "Number of available tickets (optional)";
+"Indicative price for tickets (optional)" = "Indicative price for tickets (optional)";
+"Web link" = "Web link";
+
+"Done" = "Done";
+"Can't select past date" = "Can't select past date";
+
+"Location" = "Location";
+"Search for an address" = "Search for an address";
+
+"Couldn't retrieve user's location" = "Couldn't retrieve user's location";
+"Couldn't fetch data, try later" = "Couldn't fetch data, try later";
+
+"Arts" = "Arts";
+"Charity" = "Charity";
+"Comedy" = "Comedy";
+"Corporate" = "Corporate";
+"Culture" = "Culture";
+"Dance" = "Dance";
+"Festivals" = "Festivals";
+"Nightlife" = "Nightlife";
+"Music" = "Music";
+"Sports" =  "Sports";
+"Food" = "Food";
+"Shopping" = "Shopping";
+"Other" = "Other";
+"Family" = "Family";
+"Health & Wellness" = "Health & Wellness";
+"Fashion" = "Fashion";
+
+// Home
+
+"Create your own event" = "Create your own event";
+"Use filters to indicate your preferences" = "Use filters to indicate your preferences";
+"Starting soon" = "Starting soon";
+"For you" = "For you";
+"Filter" = "Filter";
+"Filters" = "Filters";
+"Clear All" = "Clear All";
+"From" = "From";
+"To" = "To";
+"Dates" = "Dates";
+"Categories" = "Categories";
+"Select a date" = "Select a date";
+
+// Event Details
+"My Event Details" = "My Event Details";
+"Event Details" = "Event Details";
+"Event reported" = "Event reported";
+"Event cancelled." = "Event cancelled.";
+"Event deleted." = "Event deleted.";
+"tickets available" = "tickets available";
+"Website" = "Website";
+"No tickets for sale" = "No tickets for sale";
+
+"Select An Event" = "Select An Event";
+
+"Couldn't invite friend" = "Couldn't invite friend";
+"Interested Friends" = "Interested Friends";
+"Interested Users" = "Interested Users";
+
+"This event has been blocked for inappropriate content. Come back later" = "This event has been blocked for inappropriate content. Come back later";
+
+"My Tickets" = "My Tickets";
+"Interested" = "Interested";
+"Created" = "Created";
+"Please allow user location" = "Please allow user location";
+
+"Share" = "Share";
+"Contact" = "Contact";
+
+// Profile
+
+"Add a cover photo" = "Add a cover photo";
+"Account Setup" = "Account Setup";
+"Edit My Profile" = "Edit My Profile";
+"Save" = "Save";
+"First name" = "First name";
+"Last name" = "Last name";
+"Profile saved!" = "Profile saved!";
+
+"events" = "events";
+"Success reporting user" = "Success reporting user";
+"Events" = "Events";
+"Tap on your profile picture to see how to get to the next band" = "Tap on your profile picture to see how to get to the next band";
+"Band" = "Band";
+"events required" = "events required";
+"Green" = "Green";
+"Gold" = "Gold";
+"Platinum" = "Platinum";
+"Black" = "Black";
+"My Friends" = "My Friends";
+
+// Settings
+
+"Settings" = "Settings";
+"You can't change password for your Facebook account" = "You can't change password for your Facebook account";
+"Edit Profile" = "Edit Profile";
+"Change password" = "Change password";
+"Terms and conditions" = "Terms and conditions";
+"Privacy Policy" = "Privacy Policy";
+"Contact us" =  "Contact us";
+"Log out" = "Log out";
+
+"Old Password" = "Old Password";
+"New Password" = "New Password";
+"New password again" = "New password again";
+"Values can't be empty" = "Values can't be empty";
+"Old password can't be empty" = "Old password can't be empty";
+"New password entries don't match" = "New password entries don't match";
+"New password can't be empty" = "New password can't be empty";
+"Password successfully changed" = "Password successfully changed";
+
+"Contact Admin" = "Contact Admin";
+"Email address" = "Email address";
+"Phone number" = "Phone number";
+"Write something here" = "Write something here";
+"Phone can't be empty" = "Phone can't be empty";
+"The message can't be empty" = "The message can't be empty";
+"Your request has been sent to the admin team. They will contact you as soon as they can." = "Your request has been sent to the admin team. They will contact you as soon as they can.";
+"Your contact information" = "Your contact information";
+"Your message to the admin team" = "Your message to the admin team";
+
+//Map
+"Refresh map" = "Refresh map";
+
+// Notifications
+"Notifications" = "Notifications";
+"Mark as read" = "Mark as read";
+
+// Dates
+"Just now" = "Just now";
+
+"years ago" = "years ago";
+"1 year ago" = "1 year ago";
+"Last year" = "Last year";
+
+"1 month ago" = "1 month ago";
+"Last month" = "Last month";
+"months ago" = "months ago";
+
+"1 week ago" = "1 week ago";
+"Last week" = "Last week";
+"weeks ago" = "weeks ago";
+
+"1 day ago" = "1 day ago";
+"Yesterday" = "Yesterday";
+"days ago" = "days ago";
+
+"1 hour ago" = "1 hour ago";
+"An hour ago" = "An hour ago";
+"hours ago" = "hours ago";
+
+"1 minute ago" = "1 minute ago";
+"A minute ago" = "A minute ago";
+"minutes ago" = "minutes ago";
+
+"today" = "today";
+
+"See my tickets" = "See my tickets";
+"bandMessage" = "Bands are based on the number of events you created and/or are interested in.";
+"at" = "at";
+"to" = "to";
+"Save profile" = "Save profile";
+"Upcoming" = "Upcoming";
+"Past" = "Past";
+"Invite" = "Invite";
+"More" = "More";
+"setPassMessage" = "Set a new password you will remember to login with your address.";
+"CREATE A NEW ACCOUNT" = "CREATE A NEW ACCOUNT";
+"I HAVE AN ACCOUNT" = "I HAVE AN ACCOUNT";
+
+// force update
+"updateApp" = "Your app version is not compliant anymore.\nPlease update the app";
+"Update" = "Update";
+
+//empty cell events
+"empty_events_text" = "Couldn’t find experiences.";
+"empty_events_subTitle" = "Try changing filters or create your own experience.";
+"be_first_creator" = "Be the first Creator in";
+//no search result events
+"empty_result_text" = "Find experiences \n made for you.";
+//pop to promote user to use promoter app
+"getYourActOUtThere" = "GET \nYOUR ACT \nOUT THERE.";
+"useCreaterApp" = "Use the Creator App to give life to your own experiences.";
+//submit your review
+"Couldn't save your review" = "Couldn't save your review";

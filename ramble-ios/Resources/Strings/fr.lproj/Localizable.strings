@@ -1,0 +1,417 @@
+/*
+ Localizable.strings
+ 
+ Created by Benjamin Bourasseau on 13/06/2016.
+ Copyright © 2016 Ramble Technologies Inc. All rights reserved.
+ */
+
+// ----------------------------------------------------
+
+// Date format
+
+"weekdayMonthDayFormat" = "EEEE, d MMM";
+
+// Notifications
+
+"You don't have notifications yet. Come back later!" = "Vous n'avez pas de notification.\nRevenez plus tard!";
+
+"invitation" = "%@ vous a invité à %@.";
+"friendInterested" = "%@ est intéressé par %@.";
+"eventStarting" = "%@ débutera dans les prochaines 24 heures.";
+"eventCancelled" = "%@ a été annulé.";
+"eventCancelledRefunded" = "%@ a été annulé, vos billets seront remboursés.";
+
+"eventModified" = "%@ a été modifié: date, heure or lieu.";
+"eventModifiedLocation" = "%@ a été modifié: lieu.";
+"eventModifiedLocationDate" = "%@ a été modifié: date et lieu.";
+"eventModifiedLocationDateTime" = "%@ a été modifié: date, heure et lieu.";
+"eventModifiedLocationTime" = "%@ a été modifié: heure et lieu.";
+"eventModifiedDate" = "%@ a été modifié: date.";
+"eventModifiedDateTime" = "%@ a été modifié: date et heure.";
+"eventModifiedTime" = "%@ a été modifié: heure.";
+"receiveMessage" = "Vous avez reçu un message Ramble";
+
+
+// Errors
+
+"Something went wrong" = "Une erreur est survenue";
+"Email is mandatory" = "Adresse courriel requise";
+"Please enter a valid email address" = "Mettez une adresse email valide";
+"Invalid email" = "Adresse courriel incorrect ";
+"Please enter your password" = "Entrez votre mot de passe";
+"Password is mandatory" = "Mot de passe requis";
+"Invalid Password" = "Mot de passe incorrect";
+"Field is mandatory" = "Ce champ est obligatoire";
+"Invalid field" = "Champ invalide";
+"User is wrong" = "Nom d'utilisateur incorrect";
+"There is no Facebook account linked." = "Il n'y a pas de compte Facebook lié.";
+"Error getting friends" = "Nous n'avons pu vous connecter à vos amis";
+"Something went wrong connecting with facebook" = "Une erreur s'est produite en connectant avec Facebook";
+"You have reported this user before." = "Vous avez déjà signalé cet utilisateur.";
+"Couldn't get tax" = "Taxes introuvables";
+"Couldn't buy tickets" = "Les billets n'ont pu être achetés";
+"Session has expired" = "La session a expiré";
+"Can't delete because someone is already interested in this event" = "Vous ne pouvez supprimer cet évènement, des utilisateurs sont déjà intéressés";
+"Couldn't fetch events" = "Difficulté à charger les évènements";
+"You have reported this event before." = "Vous avez déjà signalé cet évènement.";
+"Couldn't fetch tickets" = "Difficulté à charger les billets";
+"Couldn't fetch notifications" = "Difficulté à charger les notifications";
+
+"Event name is empty/invalid." = "Le titre de l'évènement est invalide.";
+"Event title is empty/invalid." = "Le titre de l'évènement est invalide.";
+"Please add an image." = "Veuillez ajouter une photo.";
+"Please select a category." = "Veuillez sélectionner une catégorie.";
+"Please select a start date." = "Veuillez sélectionner une date de début.";
+"Please select an end date." = "Veuillez sélectionner une date de fin.";
+"Start date can't be after end date" = "La date de début doit être avant la date de fin";
+"End date can't be before start date" = "La date de fin doit être après la date de début";
+"Please select the location" = "Veuillez déterminer le lieu";
+"Please add a description" = "Veuillez ajouter une description";
+"Web must start with http://" = "L'adresse web doit commencer par http://";
+"Can't select past date" = "Veuillez sélectionner une date à venir";
+"Couldn't retrieve user's location" = "Difficulté à localiser l'utilisateur";
+"Couldn't fetch data, try later" = "Difficulté à charger les données, réessayez plus tard";
+"Please select a ticket" = "Veuillez sélectionner un billet";
+"This event has been blocked for inappropriate content. Come back later" = "Cet évènement a été bloqué en raison de contenu inapproprié";
+"Please allow user location" = "Veuillez autoriser le partage de localisation";
+
+"You can't change password for your Facebook account" = "Vous ne pouvez changer le mot de passe de votre compte Facebook";
+"Values can't be empty" = "Les valeurs ne peuvent être vides";
+"Please enter old passord" = "Entrez ancien mot de passe";
+"Please enter new password" = "Entrez nouveau mot de passe";
+"Old password can't be empty" = "Entrez ancien mot de passe";
+"New password can't be empty" = "Entrez nouveau mot de passe";
+"New password entries don't match" = "Nouveau mot de passe ne concorde pas";
+"Please add a credit card" = "Veuillez ajouter une carte de crédit";
+"Please enter phone number" = "Entrez numéro de téléphone";
+"Phone number can't be empty" = "Entrez numéro de téléphone";
+
+"The message can't be empty" = "Veuillez entrer votre message";
+"Couldn't invite friend" = "Votre ami(e) n'a pu être invité(e)";
+"Couldn't fetch chat messages" = "Impossible de récupérer les messages de discussion";
+"Couldn't fetch chat messages" = "Impossible d'envoyer des messages de discussion";
+
+// App Alerts and Action Sheets
+
+"Are you sure?" = "Êtes-vous certain?";
+"You will be disconnected from your account" = "Vous serez déconnecté de votre compte";
+"Continue" = "Continuer";
+"Do you want to cancel this event?" = "Désirez-vous réellement annuler cet évènement?";
+"Do you want to delete this event?" = "Désirez-vous réellement supprimer cet évènement?";
+"Blocked event" = "Évènement bloqué";
+"This event has been blocked due to inappropriate content. No one can see it. To resolve this issue, contact the admin team" = "Cet évènement a été bloqué en raison de contenu inapproprié. Aucun utilisateur n'a accès à cette page. Contactez notre équipe pour régler cette situation";
+"Fill your email address" = "Entrez adresse courriel";
+"You need to activate location service to use this feature. Please turn on GPS mode in location settings" = "Vous devez activer votre service de position pour utiliser cette fonctionnalité. Veuillez activer le mode GPS dans vos réglages de position.";
+"Settings" = "Réglages";
+"Ok" = "Ok";
+"Cancel" = "Annuler";
+"Maybe later" = "Plus tard";
+"Contact admin" = "Contacter administrateur";
+"Send" = "Envoyer";
+"Post" = "Publier";
+
+
+"Open with..." = "Ouvrir avec...";
+"Report inappropriate content" = "Signaler contenu inapproprié";
+"Rate this experience" = "Évaluez cette expérience";
+"Edit event" = "Modifier l'évènement";
+"Cancel event" = "Annuler l'évènement";
+"Delete event" = "Supprimer l'évènement";
+"Maps" = "Plans";
+"Google Maps" = "Google Maps";
+"Take Photo" = "Prendre une photo";
+"Choose from Library" = "Choisir une photo";
+"Remove image" = "Supprimer la photo";
+
+"Report Inappropriate cover picture" = "Signaler photo de couverture";
+"Report Inappropriate profile picture" = "Signaler photo de profil";
+"Share this experience" = "Partagez votre expérience";
+
+
+// EventView
+
+"Blocked" = "Bloqué";
+"Cancelled" = "Annulé";
+"Interested" = "Intéressé";
+"Created" = "Créés";
+"My tickets" = "Mes billets";
+
+
+// Auth
+
+"An email has been sent to resent password." = "Nous avons envoyé un message à votre adresse courriel afin que vous puissiez réinitialiser votre mot de passe.";
+
+// Connection View
+"CREATE A NEW ACCOUNT" = "Créer un nouveau compte";
+"I HAVE AN ACCOUNT" = "J'ai déjà un compte";
+"Continue as guest" = "Continuer sans compte";
+
+// Signup and Login View
+"Create a New Account" = "Créer un nouveau compte";
+"Sign up with Facebook" = "S'inscrire avec Facebook";
+"Log in with Facebook" = "Se connecter avec Facebook";
+
+"or" = "ou";
+"Sign up with your email address" = "S'inscrire avec un e-mail";
+
+"Email address" = "Adresse e-mail";
+"Password" = "Mot de passe";
+
+"by creating an account, you agree our terms and conditions" = "En créant un compte, vous acceptez nos conditions d'utilisation";
+
+"Forgot your password?" = "Mot de passe oublié?";
+
+"Sign up" = "S'inscrire";
+"Log in" = "Se connecter";
+
+
+// Payment
+
+"Get Tickets" = "Billets";
+"Please select a ticket" = "Veuillez sélectionner un billet";
+"Go to payment" = "Continuer";
+"Sold out" = "Écoulé";
+"tickets left" = "billets disponibles";
+"Free" = "Gratuit";
+"Credit Card" = "Carte de crédit";
+
+"Save" = "Sauvegarder";
+"Card number" = "Numéro de carte";
+"CVV" = "CVV";
+"Expiration date" = "Date d'expiration";
+"Card holder name" = "Nom du titulaire";
+"Card created" = "Carte émise";
+"Payment" = "Paiement";
+"Ticket(s) bought!" =  "Billet(s) acheté(s)!";
+"No credit card" = "Aucune carte de crédit";
+"Change" = "Changer";
+"Add" = "Ajouter";
+"Please add a credit card" = "Veuillez ajouter une carte de crédit";
+"Tickets" = "Billets";
+"Couldn't get code to share" = "Le code n'a pu être partagé";
+"Subtotal" = "Sous-Total";
+
+"Starting soon" = "Débute sous peu";
+
+"see" = "Voir %@";
+"Buy ticket(s)" = "Acheter %@ billet(s)";
+
+
+// Event Creation
+
+"New Event!" = "Nouvel évènement!";
+"Event updated!" = "Évènement mis à jour!";
+"Create New Event" = "Nouvel évènement";
+"Edit Event" = "Modifier l'évènement";
+"Starts now" = "Débute maintenant";
+"Starts" = "De";
+"Ends" = "À";
+"tickets" = "billets";
+
+// Event Creation validations
+
+"Event name is empty/invalid." = "Le titre de l'évènement est invalide.";
+"Please add an image." = "Veuillez ajouter une photo.";
+"Please select a category." = "Veuillez sélectionner une catégorie.";
+"Please select a start date." = "Veuillez sélectionner une date de début.";
+"Please select an end date." = "Veuillez sélectionner une date de fin.";
+"Start date can't be after end date" = "La date de début doit être avant la date de fin";
+"End date can't be before start date" = "La date de fin doit être après la date de début";
+"Please select the location" = "Veuillez déterminer le lieu";
+"Please add a description" = "Ajoutez une description";
+"Web must start with http://" = "Le lien doit débuter par http://";
+
+"Event name" = "Titre de l'évènement";
+"Category" = "Catégorie";
+"Start date" = "Date de début";
+"End date" = "Date de fin";
+"Location" = "Lieu";
+"Description" = "Description";
+"Booking required" = "Billetterie";
+"Number of available tickets (optional)" = "Nombre de billets disponibles (optionnel)";
+"Indicative price for tickets (optional)" = "Prix des billets (optionnel)";
+"Web link" = "Lien web";
+
+"Done" = "Terminé";
+"Can't select past date" = "Veuillez choisir une date à venir ";
+
+"Location" = "Lieu";
+"Search for an address" = "Rechercher une adresse";
+
+"Couldn't retrieve user's location" = "Difficulté à localiser l'utilisateur";
+"Couldn't fetch data, try later" = "Difficulté à charger les données, réessayez plus tard";
+
+"Arts" = "Art";
+"Charity" = "Charité";
+"Comedy" = "Humour";
+"Corporate" = "Affaires";
+"Culture" = "Culture";
+"Dance" = "Danse";
+"Nightlife" = "Nightlife";
+"Music" = "Musique";
+"Sports" =  "Sports";
+"Festivals" = "Festivals";
+"Food" = "Nourriture et boissons";
+"Shopping" = "Magasinage";
+"Other" = "Autre";
+"Family" = "Famille";
+"Health & Wellness" = "Santé & Bien-être";
+"Fashion" = "Mode";
+
+// Home
+
+"Create your own event" = "Créez votre propre évènement";
+"Use filters to indicate your preferences" = "Utilisez les filtres pour indiquer vos préférences";
+"Starting soon" = "Débute sous peu";
+"For you" = "Pour vous";
+"Filter" = "Filtrer";
+"Filters" = "Filtres";
+"Clear All" = "Effacer";
+"From" = "De";
+"To" = "À";
+"Dates" = "Dates";
+"Categories" = "Catégories";
+"Select a date" = "Sélectionnez une date";
+
+// Event Details
+"My Event Details" = "Détails";
+"Event Details" = "Détails";
+"Event reported" = "Évènement signalé";
+"Event cancelled." = "Évènement annulé.";
+"Event deleted." = "Évènement supprimé.";
+"tickets available" = "Billets disponibles";
+"Website" = "Site web";
+"No tickets for sale" = "Aucun billet disponible";
+
+"Select An Event" = "Sélectionnez un évènement";
+
+"Couldn't invite friend" = "Votre ami(e) n'a pu être invité(e)";
+"Interested Friends" = "Amis intéressés";
+"Interested Users" = "Utilisateurs intéressés";
+
+"This event has been blocked for inappropriate content. Come back later" = "Cet évènement a été bloqué en raison de contenu inapproprié. Revenez plus tard.";
+
+"My Tickets" = "Mes billets";
+"Interested" = "Intéressé";
+"Created" = "Créés";
+"Please allow user location" = "Please allow user location";
+
+"Share" = "Partager";
+"Contact" = "contacter";
+
+// Profile
+
+"Add a cover photo" = "Ajouter une photo de couverture";
+"Account Setup" = "Paramètres de mon compte";
+"Edit My Profile" = "Modifier profil";
+"Save" = "Sauvegarder";
+"First name" = "Prénom";
+"Last name" = "Nom";
+"Profile saved!" = "Profil sauvegardé!";
+
+"events" = "évènements";
+"Success reporting user" = "Utilisateur signalé avec succès";
+"Events" = "Évènements";
+"Tap on your profile picture to see how to get to the next band" = "Appuyez sur votre photo de profil pour savoir comment obtenir le prochain “Band”";
+"Band" = "Band";
+"events required" = "évènements requis";
+"Green" = "Vert";
+"Gold" = "Or";
+"Platinum" = "Platine";
+"Black" = "Noir";
+"My Friends" = "Mes amis";
+
+// Settings
+
+"Settings" = "Réglages";
+"You can't change password for your Facebook account" = "Vous ne pouvez changer le mot de passe de votre compte Facebook";
+"Edit Profile" = "Modifier profil";
+"Change password" = "Mot de passe";
+"Terms and conditions" = "Conditions d'utilisation";
+"Privacy Policy" = "Politiques de confidentialité";
+"Contact us" =  "Nous contacter";
+"Log out" = "Déconnexion";
+
+"Old Password" = "Ancien mot de passe";
+"New Password" = "Nouveau mot de passe";
+"New password again" = "Répéter nouveau mot de passe";
+"Values can't be empty" = "Les valeurs ne peuvent être vides";
+"Old password can't be empty" = "Entrez ancien mot de passe";
+"New password entries don't match" = "Nouveau mot de passe incorrect";
+"New password can't be empty" = "Entrez nouveau mot de passe";
+"Password successfully changed" = "Mot de passe modifié";
+
+"Contact Admin" = "Contacter administrateur";
+"Email address" = "Adresse courriel";
+"Phone number" = "Numéro de téléphone";
+"Write something here" = "Ecrivez ici";
+"Phone can't be empty" = "Entrez numéro de téléphone";
+"The message can't be empty" = "Veuillez entrer votre message";
+"Your request has been sent to the admin team. They will contact you as soon as they can." = "Votre message a été envoyé à notre équipe. Nous vous contacterons dès que possible.";
+"Your contact information" = "Vos informations de contact";
+"Your message to the admin team" = "Votre message à l'équipe admin";
+
+//Map
+"Refresh map" = "Rafraîchir";
+
+// Notifications
+"Notifications" = "Notifications";
+"Mark as read" = "Lu";
+
+// Dates
+"Just now" = "A l'instant";
+
+"years ago" = "ans";
+"1 year ago" = "1 an";
+"Last year" = "1 an";
+
+"1 month ago" = "1 mois";
+"Last month" = "1 mois";
+"months ago" = "mois";
+
+"1 week ago" = "1 semaine";
+"Last week" = "1 semaine";
+"weeks ago" = "semaines";
+
+"1 day ago" = "1j";
+"Yesterday" = "Hier";
+"days ago" = "j";
+
+"1 hour ago" = "1h";
+"An hour ago" = "1h";
+"hours ago" = "h";
+
+"1 minute ago" = "1m";
+"A minute ago" = "1m";
+"minutes ago" = "m";
+
+"today" = "aujourd'hui";
+
+"See my tickets" = "Voir mes billets";
+"bandMessage" = "Les Bands sont basés sur le nombre d'événements créés ou pour lesquels vous êtes intéressés.";
+"at" = "à";
+"to" = "à";
+"Save profile" = "Sauvegarder";
+"Upcoming" = "À venir";
+"Past" = "Passés";
+"Invite" = "Inviter";
+"More" = "Plus";
+"setPassMessage" = "Définissez un nouveau mot de passe dont vous allez vous souvenir.";
+"CREATE A NEW ACCOUNT" = "Créer un nouveau compte";
+"I HAVE AN ACCOUNT" = "J'ai deja un compte";
+
+// force update
+"updateApp" = "Votre version n’est plus compatible.\nVeuillez la mettre à jour";
+"Update" = "Mettre à jour";
+
+//empty cell events
+"empty_events_text" = "Impossible de trouver des expériences.";
+"empty_events_subTitle" = "Essayez de changer les filtres ou créez votre propre expérience.";
+"be_first_creator" = "Soyez le premier créateur à";
+//no search result events
+"empty_result_text" = "Trouvez des expériences \n faites pour vous.";
+//pop to promote user to use promoter app
+"getYourActOUtThere" = "GET \nYOUR ACT \nOUT THERE.";
+"useCreaterApp" = "Use the Creator App to give life to your own experiences.";
+//submit your review
+"Couldn't save your review" = "Impossible d'enregistrer votre avis";

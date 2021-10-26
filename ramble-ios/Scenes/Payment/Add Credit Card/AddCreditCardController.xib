@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddCreditCardController" customModule="ramble_ios" customModuleProvider="target">
+            <connections>
+                <outlet property="cardNumberTextField" destination="3yY-jc-hub" id="OHZ-ve-wsF"/>
+                <outlet property="cvvTextField" destination="Xmg-4i-FqI" id="cnz-6q-GVf"/>
+                <outlet property="expirationDateTextField" destination="mja-lm-pXC" id="TWN-Co-V6r"/>
+                <outlet property="holderNameTextField" destination="pSS-Gt-bro" id="lKX-ux-hiO"/>
+                <outlet property="view" destination="jzH-Ht-3MP" id="Qtf-78-3xM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="jzH-Ht-3MP" customClass="RmbBackgroundView" customModule="ramble_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3yY-jc-hub" customClass="RMBTextField" customModule="ramble_ios" customModuleProvider="target">
+                    <rect key="frame" x="8" y="28" width="359" height="53"/>
+                    <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="53" id="cPS-Qm-jlC"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="next"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xmg-4i-FqI" customClass="RMBTextField" customModule="ramble_ios" customModuleProvider="target">
+                    <rect key="frame" x="8" y="89" width="359" height="53"/>
+                    <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="53" id="fD4-sE-iua"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="next"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mja-lm-pXC" customClass="RMBTextField" customModule="ramble_ios" customModuleProvider="target">
+                    <rect key="frame" x="8" y="150" width="359" height="53"/>
+                    <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="53" id="cWc-FT-7s3"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="next"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pSS-Gt-bro" customClass="RMBTextField" customModule="ramble_ios" customModuleProvider="target">
+                    <rect key="frame" x="8" y="211" width="359" height="53"/>
+                    <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="53" id="EAf-hL-NkY"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardAppearance="alert" returnKeyType="done"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="pSS-Gt-bro" firstAttribute="top" secondItem="mja-lm-pXC" secondAttribute="bottom" constant="8" id="2q9-zf-fsq"/>
+                <constraint firstItem="u72-vJ-obS" firstAttribute="trailing" secondItem="Xmg-4i-FqI" secondAttribute="trailing" constant="8" id="7qn-rt-hyp"/>
+                <constraint firstItem="u72-vJ-obS" firstAttribute="trailing" secondItem="3yY-jc-hub" secondAttribute="trailing" constant="8" id="S88-FT-20u"/>
+                <constraint firstItem="Xmg-4i-FqI" firstAttribute="top" secondItem="3yY-jc-hub" secondAttribute="bottom" constant="8" id="WgJ-XN-wB1"/>
+                <constraint firstItem="pSS-Gt-bro" firstAttribute="leading" secondItem="u72-vJ-obS" secondAttribute="leading" constant="8" id="Zn6-0g-0PZ"/>
+                <constraint firstItem="Xmg-4i-FqI" firstAttribute="leading" secondItem="u72-vJ-obS" secondAttribute="leading" constant="8" id="hqE-rk-JIa"/>
+                <constraint firstItem="3yY-jc-hub" firstAttribute="leading" secondItem="u72-vJ-obS" secondAttribute="leading" constant="8" id="itN-3h-hIp"/>
+                <constraint firstItem="mja-lm-pXC" firstAttribute="top" secondItem="Xmg-4i-FqI" secondAttribute="bottom" constant="8" id="rcr-Bl-bI8"/>
+                <constraint firstItem="u72-vJ-obS" firstAttribute="trailing" secondItem="pSS-Gt-bro" secondAttribute="trailing" constant="8" id="swm-ZQ-LdH"/>
+                <constraint firstItem="mja-lm-pXC" firstAttribute="leading" secondItem="u72-vJ-obS" secondAttribute="leading" constant="8" id="uQ2-eC-uT5"/>
+                <constraint firstItem="u72-vJ-obS" firstAttribute="trailing" secondItem="mja-lm-pXC" secondAttribute="trailing" constant="8" id="v1I-53-Kab"/>
+                <constraint firstItem="3yY-jc-hub" firstAttribute="top" secondItem="u72-vJ-obS" secondAttribute="top" constant="8" id="v2f-fr-TdU"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="u72-vJ-obS"/>
+        </view>
+    </objects>
+</document>

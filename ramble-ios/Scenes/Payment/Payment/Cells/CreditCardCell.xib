@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CreditCardCell" rowHeight="118" id="lvQ-JA-Ngq" customClass="CreditCardCell" customModule="ramble_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="118"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lvQ-JA-Ngq" id="RBj-ps-Rew" customClass="RmbBackgroundView" customModule="ramble_ios" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="118"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wyf-T9-5Zx" userLabel="background">
+                        <rect key="frame" x="8" y="41" width="359" height="73"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No credit card" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JVH-ME-ljh">
+                                <rect key="frame" x="54" y="26" width="252.5" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_credit_card" translatesAutoresizingMaskIntoConstraints="NO" id="SBS-1b-8ye">
+                                <rect key="frame" x="16" y="25.5" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="2x1-QA-1qp"/>
+                                    <constraint firstAttribute="width" constant="22" id="CS5-aB-ndL"/>
+                                </constraints>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Add" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYF-OL-TpF">
+                                <rect key="frame" x="311.5" y="26" width="31.5" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_right_indicator" translatesAutoresizingMaskIntoConstraints="NO" id="P2Q-xO-3rQ">
+                                <rect key="frame" x="321" y="25.5" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="F58-gL-AsI"/>
+                                    <constraint firstAttribute="height" constant="22" id="F9P-VK-sZf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dYF-OL-TpF" firstAttribute="leading" secondItem="JVH-ME-ljh" secondAttribute="trailing" constant="5" id="315-6c-EgO"/>
+                            <constraint firstItem="dYF-OL-TpF" firstAttribute="centerY" secondItem="Wyf-T9-5Zx" secondAttribute="centerY" id="8ui-uU-7WY"/>
+                            <constraint firstAttribute="trailing" secondItem="P2Q-xO-3rQ" secondAttribute="trailing" constant="16" id="ENB-uS-Zr9"/>
+                            <constraint firstItem="SBS-1b-8ye" firstAttribute="centerY" secondItem="Wyf-T9-5Zx" secondAttribute="centerY" id="XKK-BR-JBE"/>
+                            <constraint firstItem="SBS-1b-8ye" firstAttribute="leading" secondItem="Wyf-T9-5Zx" secondAttribute="leading" constant="16" id="Yoz-4a-fyz"/>
+                            <constraint firstItem="P2Q-xO-3rQ" firstAttribute="bottom" secondItem="SBS-1b-8ye" secondAttribute="bottom" id="jde-JA-goz"/>
+                            <constraint firstItem="JVH-ME-ljh" firstAttribute="leading" secondItem="SBS-1b-8ye" secondAttribute="trailing" constant="16" id="tzf-qz-v6c"/>
+                            <constraint firstItem="JVH-ME-ljh" firstAttribute="centerY" secondItem="SBS-1b-8ye" secondAttribute="centerY" id="v6E-fz-FNW"/>
+                            <constraint firstAttribute="trailing" secondItem="dYF-OL-TpF" secondAttribute="trailing" constant="16" id="xYr-DW-4Ra"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PAYMENT METHOD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MlA-ta-VlD">
+                        <rect key="frame" x="24" y="15" width="124" height="16"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="PAYMENT METHOD"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.050980392156862744" green="0.050980392156862744" blue="0.050980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Wyf-T9-5Zx" secondAttribute="trailing" constant="8" id="EEH-bh-o8o"/>
+                    <constraint firstAttribute="bottom" secondItem="Wyf-T9-5Zx" secondAttribute="bottom" constant="4" id="NPB-Ll-h5T"/>
+                    <constraint firstItem="Wyf-T9-5Zx" firstAttribute="leading" secondItem="RBj-ps-Rew" secondAttribute="leading" constant="8" id="V0V-RG-sp4"/>
+                    <constraint firstItem="Wyf-T9-5Zx" firstAttribute="top" secondItem="MlA-ta-VlD" secondAttribute="bottom" constant="10" id="Vjq-2o-cx6"/>
+                    <constraint firstItem="MlA-ta-VlD" firstAttribute="top" secondItem="RBj-ps-Rew" secondAttribute="topMargin" constant="4" id="Yn0-hZ-NBk"/>
+                    <constraint firstItem="SBS-1b-8ye" firstAttribute="leading" secondItem="MlA-ta-VlD" secondAttribute="leading" id="ZAf-Ul-vmS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="creditCardIcon" destination="SBS-1b-8ye" id="UI0-xN-Y8B"/>
+                <outlet property="subtitleLabel" destination="dYF-OL-TpF" id="ytq-LU-y14"/>
+                <outlet property="titleLabel" destination="JVH-ME-ljh" id="Pte-FM-lHs"/>
+            </connections>
+            <point key="canvasLocation" x="136.80000000000001" y="151.12443778110946"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_credit_card" width="24" height="20"/>
+        <image name="ic_right_indicator" width="8" height="12"/>
+    </resources>
+</document>

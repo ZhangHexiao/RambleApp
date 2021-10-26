@@ -1,0 +1,18 @@
+#!/bin/sh
+
+#  Script to generate warnings and errors for FIXME and ERROR. Use the | character to add other warnings or errors
+#
+#  Copyright (c) 2016 Guarana. All rights reserved.
+
+WARNINGTAGS="FIXME:"
+ERRORTAGS="ERROR:"
+
+linesOfError=$(find "${SRCROOT}" \( -name "*.h" -or -name "*.m" -or -name "*.swift" \) -print0 | xargs -0 egrep --with-filename --line-number --only-matching "($ERRORTAGS).*\$" | wc -l)
+
+find "${SRCROOT}" \( -name "*.h" -or -name "*.m" -or -name "*.swift" \) -print0 | xargs -0 egrep --with-filename --line-number --only-matching "($WARNINGTAGS).*\$|($ERRORTAGS).*\$" | perl -p -e "s/($WARNINGTAGS)/ warning: \$1/" | perl -p -e "s/($ERRORTAGS)/ error: \$1/"
+
+if [ $linesOfError -eq 0 ]; then
+  exit 0
+else
+  exit 1
+fi

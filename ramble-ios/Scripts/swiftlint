@@ -1,0 +1,12 @@
+#!/bin/sh
+
+#  Script to check if SwiftLint is installed on the computer
+#
+#  Copyright (c) 2017 Guarana. All rights reserved.
+
+if which swiftlint >/dev/null; then
+swiftlint
+else
+echo "error: SwiftLint not installed, use brew install swiftlint"
+exit 1
+fi

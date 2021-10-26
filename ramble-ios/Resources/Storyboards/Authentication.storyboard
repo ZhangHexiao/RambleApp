@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8F3-Cm-zS2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="0eQ-Hz-O3g">
+            <objects>
+                <navigationController id="8F3-Cm-zS2" customClass="RMBNavigationController" customModule="ramble_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="l3w-vg-emP">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="waB-Qb-CTi" kind="relationship" relationship="rootViewController" id="hBq-3u-YgJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qpl-4W-E5o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1274" y="-165"/>
+        </scene>
+        <!--Connection Controller-->
+        <scene sceneID="oey-cA-kek">
+            <objects>
+                <viewController storyboardIdentifier="ConnectionController" id="waB-Qb-CTi" customClass="ConnectionController" customModule="ramble_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8nq-Ye-Jfe" customClass="RMBBackgroundView" customModule="ramble_ios" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjx-C9-F3X" customClass="RMBButton" customModule="ramble_ios" customModuleProvider="target">
+                                <rect key="frame" x="20" y="510" width="335" height="56"/>
+                                <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="0A5-y4-ONf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                                <state key="normal" title="CREATE A NEW ACCOUNT">
+                                    <color key="titleColor" red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="CREATE A NEW ACCOUNT"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="theme">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionSignup" destination="waB-Qb-CTi" eventType="touchUpInside" id="ycz-Cy-YJb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="len-jK-paT" customClass="RMBButton" customModule="ramble_ios" customModuleProvider="target">
+                                <rect key="frame" x="20" y="581" width="335" height="56"/>
+                                <color key="backgroundColor" red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="ZMV-wv-mCo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                                <state key="normal" title="I HAVE AN ACCOUNT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="I HAVE AN ACCOUNT"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="theme">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionLogin" destination="waB-Qb-CTi" eventType="touchUpInside" id="KwA-vX-VQq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ramble" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ell-oS-qkg">
+                                <rect key="frame" x="99" y="297" width="177" height="73"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="56"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saQ-TZ-RJs">
+                                <rect key="frame" x="106.5" y="458" width="162" height="32"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="Continue as a guest">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Continue as a guest"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.027450980392156862" green="0.027450980392156862" blue="0.027450980392156862" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="UQn-Ie-pSm" firstAttribute="trailing" secondItem="len-jK-paT" secondAttribute="trailing" constant="20" id="6pc-8B-etw"/>
+                            <constraint firstItem="ell-oS-qkg" firstAttribute="centerY" secondItem="8nq-Ye-Jfe" secondAttribute="centerY" id="RsD-kT-tje"/>
+                            <constraint firstItem="hjx-C9-F3X" firstAttribute="top" secondItem="saQ-TZ-RJs" secondAttribute="bottom" constant="20" id="Sbo-2l-CcY"/>
+                            <constraint firstItem="saQ-TZ-RJs" firstAttribute="centerX" secondItem="8nq-Ye-Jfe" secondAttribute="centerX" id="dFw-Pj-Og4"/>
+                            <constraint firstItem="UQn-Ie-pSm" firstAttribute="trailing" secondItem="hjx-C9-F3X" secondAttribute="trailing" constant="20" id="flC-I1-DV3"/>
+                            <constraint firstItem="len-jK-paT" firstAttribute="leading" secondItem="UQn-Ie-pSm" secondAttribute="leading" constant="20" id="g8W-ft-XIZ"/>
+                            <constraint firstItem="ell-oS-qkg" firstAttribute="centerX" secondItem="8nq-Ye-Jfe" secondAttribute="centerX" id="mXR-IH-uFU"/>
+                            <constraint firstItem="UQn-Ie-pSm" firstAttribute="bottom" secondItem="len-jK-paT" secondAttribute="bottom" constant="30" id="pwx-ZM-gf2"/>
+                            <constraint firstItem="len-jK-paT" firstAttribute="top" secondItem="hjx-C9-F3X" secondAttribute="bottom" constant="15" id="s8o-W4-NoH"/>
+                            <constraint firstItem="hjx-C9-F3X" firstAttribute="leading" secondItem="UQn-Ie-pSm" secondAttribute="leading" constant="20" id="vc9-fR-BBk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UQn-Ie-pSm"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3PW-jp-BPL"/>
+                    <connections>
+                        <outlet property="continueAsGuestButton" destination="saQ-TZ-RJs" id="FCB-HR-J7w"/>
+                        <outlet property="createAccBtn" destination="hjx-C9-F3X" id="pYm-9L-BlV"/>
+                        <outlet property="iHaveAccBtn" destination="len-jK-paT" id="j7C-z3-tyG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MJM-N7-0fC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-490.39999999999998" y="-165.06746626686657"/>
+        </scene>
+        <!--Signup Controller-->
+        <scene sceneID="2og-HO-DkU">
+            <objects>
+                <viewController storyboardIdentifier="SignupController" id="BLc-E2-5KV" customClass="SignupController" customModule="ramble_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="at6-BW-2Rm" customClass="RMBBackgroundView" customModule="ramble_ios" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Af-c2-eDy" customClass="RMBButton" customModule="ramble_ios" customModuleProvider="target">
+                                <rect key="frame" x="20" y="40" width="335" height="56"/>
+                                <color key="backgroundColor" red="0.22352941176470587" green="0.3411764705882353" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="ws0-BN-gpi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Sign up with Facebook" image="ic_facebook">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Sign up with Facebook"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionFacebook" destination="BLc-E2-5KV" eventType="touchUpInside" id="gVM-uc-hTo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ip-jl-cP6">
+                                <rect key="frame" x="180.5" y="106" width="14" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <color key="textColor" red="0.32156862745098036" green="0.33333333333333331" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="or"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign up with your email address" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2FY-cb-9bE">
+                                <rect key="frame" x="10" y="129.5" width="355" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <color key="textColor" red="0.32156862749999998" green="0.33333333329999998" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Sign up with your email address"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="PxT-sH-Ens" customClass="RMBTextField" customModule="ramble_ios" customModuleProvider="target">
+                                <rect key="frame" x="8" y="158" width="359" height="53"/>
+                                <color key="backgroundColor" red="0.094117647058823528" green="0.094117647058823528" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="BZN-5G-ryH"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" keyboardAppearance="alert" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8EA-zx-ZmV" customClass="RMBTextField" customModule="ramble_ios" customModuleProvider="target">
+                                <rect key="frame" x="8" y="219" width="359" height="53"/>
+                                <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="8zZ-mZ-6kf"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardAppearance="alert" returnKeyType="done" secureTextEntry="YES" smartDashesType="no"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L01-n8-KdO" customClass="RMBButton" customModule="ramble_ios" customModuleProvider="target">
+                                <rect key="frame" x="20" y="581" width="335" height="56"/>
+                                <color key="backgroundColor" red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="PdV-aY-dUQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <state key="normal" title="Sign up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Sign up"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.31764705882352939" green="0.31764705882352939" blue="0.31764705882352939" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="theme">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionSignup" destination="BLc-E2-5KV" eventType="touchUpInside" id="3Gf-S1-DLb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sau-Xi-RdO" customClass="RMBButton" customModule="ramble_ios" customModuleProvider="target">
+                                <rect key="frame" x="50" y="292" width="275" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="uS6-lE-ojx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <state key="normal" title="by creating an account, you agree to our terms and conditions">
+                                    <color key="titleColor" red="0.32156862749999998" green="0.33333333329999998" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="by creating an account, you agree to our terms and conditions"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfLines">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionTerms" destination="BLc-E2-5KV" eventType="touchUpInside" id="MVq-Ts-K4f"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="8EA-zx-ZmV" firstAttribute="leading" secondItem="Aba-9I-ool" secondAttribute="leading" constant="8" id="1zQ-l2-xmI"/>
+                            <constraint firstItem="Aba-9I-ool" firstAttribute="trailing" secondItem="sau-Xi-RdO" secondAttribute="trailing" constant="50" id="BM2-nR-L2O"/>
+                            <constraint firstItem="PxT-sH-Ens" firstAttribute="top" secondItem="2FY-cb-9bE" secondAttribute="bottom" constant="10" id="HJY-W9-8jb"/>
+                            <constraint firstItem="Aba-9I-ool" firstAttribute="bottom" secondItem="L01-n8-KdO" secondAttribute="bottom" constant="30" id="Jmx-Ju-Fkb"/>
+                            <constraint firstItem="PxT-sH-Ens" firstAttribute="leading" secondItem="Aba-9I-ool" secondAttribute="leading" constant="8" id="MUd-ZC-es4"/>
+                            <constraint firstItem="Aba-9I-ool" firstAttribute="trailing" secondItem="PxT-sH-Ens" secondAttribute="trailing" constant="8" id="N07-H2-Qt5"/>
+                            <constraint firstItem="2FY-cb-9bE" firstAttribute="leading" secondItem="Aba-9I-ool" secondAttribute="leading" constant="10" id="N8M-yb-4Eg"/>
+                            <constraint firstItem="5Af-c2-eDy" firstAttribute="leading" secondItem="Aba-9I-ool" secondAttribute="leading" constant="20" id="Ovc-47-Skr"/>
+                            <constraint firstItem="5Af-c2-eDy" firstAttribute="top" secondItem="Aba-9I-ool" secondAttribute="top" constant="20" id="UUb-Zb-GqY"/>
+                            <constraint firstItem="8EA-zx-ZmV" firstAttribute="top" secondItem="PxT-sH-Ens" secondAttribute="bottom" constant="8" id="VaD-i8-TAA"/>
+                            <constraint firstItem="sau-Xi-RdO" firstAttribute="top" secondItem="8EA-zx-ZmV" secondAttribute="bottom" constant="20" id="WBF-aI-i8L"/>
+                            <constraint firstItem="L01-n8-KdO" firstAttribute="leading" secondItem="Aba-9I-ool" secondAttribute="leading" constant="20" id="avZ-SQ-PoY"/>
+                            <constraint firstItem="Aba-9I-ool" firstAttribute="trailing" secondItem="5Af-c2-eDy" secondAttribute="trailing" constant="20" id="bXZ-BV-yN2"/>
+                            <constraint firstItem="1Ip-jl-cP6" firstAttribute="centerX" secondItem="at6-BW-2Rm" secondAttribute="centerX" id="cCh-4D-dke"/>
+                            <constraint firstItem="Aba-9I-ool" firstAttribute="trailing" secondItem="2FY-cb-9bE" secondAttribute="trailing" constant="10" id="dBg-fb-BSl"/>
+                            <constraint firstItem="Aba-9I-ool" firstAttribute="trailing" secondItem="L01-n8-KdO" secondAttribute="trailing" constant="20" id="inh-Vc-5L6"/>
+                            <constraint firstItem="Aba-9I-ool" firstAttribute="trailing" secondItem="8EA-zx-ZmV" secondAttribute="trailing" constant="8" id="rG8-34-aQn"/>
+                            <constraint firstItem="1Ip-jl-cP6" firstAttribute="top" secondItem="5Af-c2-eDy" secondAttribute="bottom" constant="10" id="s4d-m9-JYL"/>
+                            <constraint firstItem="sau-Xi-RdO" firstAttribute="leading" secondItem="Aba-9I-ool" secondAttribute="leading" constant="50" id="wxL-42-ge5"/>
+                            <constraint firstItem="2FY-cb-9bE" firstAttribute="top" secondItem="1Ip-jl-cP6" secondAttribute="bottom" constant="5" id="y6n-Gs-9Sl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Aba-9I-ool"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="obA-mH-I3C"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="PxT-sH-Ens" id="lOH-Sf-Mk6"/>
+                        <outlet property="passwordTextField" destination="8EA-zx-ZmV" id="xkL-H9-dSo"/>
+                        <outlet property="termsButton" destination="sau-Xi-RdO" id="Ren-CZ-uC4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cdo-L1-gB1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="264.80000000000001" y="-546.47676161919048"/>
+        </scene>
+        <!--Login Controller-->
+        <scene sceneID="R7O-Up-GO3">
+            <objects>
+                <viewController storyboardIdentifier="LoginController" id="plw-5B-LVD" customClass="LoginController" customModule="ramble_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zpw-lr-a4z" customClass="RmbBackgroundView" customModule="ramble_ios" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNW-Tf-evN" customClass="RMBButton" customModule="ramble_ios" customModuleProvider="target">
+                                <rect key="frame" x="20" y="40" width="335" height="56"/>
+                                <color key="backgroundColor" red="0.22352941179999999" green="0.3411764706" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="6tx-g0-HCc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Log in with Facebook" image="ic_facebook">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Log in with Facebook"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionFacebook" destination="plw-5B-LVD" eventType="touchUpInside" id="BIM-JA-Goh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytH-Vl-mQe">
+                                <rect key="frame" x="180.5" y="106" width="14" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <color key="textColor" red="0.32156862749999998" green="0.33333333329999998" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="or"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OgO-IQ-Kza" customClass="RMBTextField" customModule="ramble_ios" customModuleProvider="target">
+                                <rect key="frame" x="8" y="140.5" width="359" height="53"/>
+                                <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="bDE-RU-PZa"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" keyboardAppearance="alert" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LTE-Fh-aUX" customClass="RMBTextField" customModule="ramble_ios" customModuleProvider="target">
+                                <rect key="frame" x="8" y="201.5" width="359" height="53"/>
+                                <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="3Hm-BL-6rH"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardAppearance="alert" returnKeyType="done" secureTextEntry="YES" smartDashesType="no"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPD-Cz-95g" customClass="RMBButton" customModule="ramble_ios" customModuleProvider="target">
+                                <rect key="frame" x="20" y="581" width="335" height="56"/>
+                                <color key="backgroundColor" red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="Q0c-qk-nAT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <state key="normal" title="Log in">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Log in"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.31764705879999999" green="0.31764705879999999" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="theme">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionLogin" destination="plw-5B-LVD" eventType="touchUpInside" id="Nau-ZR-eAf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxf-MQ-eXR">
+                                <rect key="frame" x="40" y="274.5" width="295" height="31"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <state key="normal" title="forgot your password?">
+                                    <color key="titleColor" red="0.32156862745098036" green="0.33333333333333331" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="forgot your password?"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionForgotPassword" destination="plw-5B-LVD" eventType="touchUpInside" id="6eY-gI-XYn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="OgO-IQ-Kza" firstAttribute="top" secondItem="ytH-Vl-mQe" secondAttribute="bottom" constant="16" id="1VT-vW-fnk"/>
+                            <constraint firstItem="LTE-Fh-aUX" firstAttribute="leading" secondItem="q5G-09-BhW" secondAttribute="leading" constant="8" id="6vV-u2-o1P"/>
+                            <constraint firstItem="q5G-09-BhW" firstAttribute="trailing" secondItem="pxf-MQ-eXR" secondAttribute="trailing" constant="40" id="A6n-SC-01U"/>
+                            <constraint firstItem="ytH-Vl-mQe" firstAttribute="top" secondItem="YNW-Tf-evN" secondAttribute="bottom" constant="10" id="Bfs-gv-sXS"/>
+                            <constraint firstItem="UPD-Cz-95g" firstAttribute="leading" secondItem="q5G-09-BhW" secondAttribute="leading" constant="20" id="FT5-Jk-ct6"/>
+                            <constraint firstItem="ytH-Vl-mQe" firstAttribute="centerX" secondItem="zpw-lr-a4z" secondAttribute="centerX" id="KAy-cy-tUS"/>
+                            <constraint firstItem="YNW-Tf-evN" firstAttribute="leading" secondItem="q5G-09-BhW" secondAttribute="leading" constant="20" id="MKy-cg-IWC"/>
+                            <constraint firstItem="pxf-MQ-eXR" firstAttribute="top" secondItem="LTE-Fh-aUX" secondAttribute="bottom" constant="20" id="PVs-pE-GUx"/>
+                            <constraint firstItem="q5G-09-BhW" firstAttribute="trailing" secondItem="LTE-Fh-aUX" secondAttribute="trailing" constant="8" id="QdD-hW-xxp"/>
+                            <constraint firstItem="q5G-09-BhW" firstAttribute="trailing" secondItem="OgO-IQ-Kza" secondAttribute="trailing" constant="8" id="dLV-5H-Ngi"/>
+                            <constraint firstItem="q5G-09-BhW" firstAttribute="bottom" secondItem="UPD-Cz-95g" secondAttribute="bottom" constant="30" id="fps-Ft-eUi"/>
+                            <constraint firstItem="q5G-09-BhW" firstAttribute="trailing" secondItem="YNW-Tf-evN" secondAttribute="trailing" constant="20" id="gxs-PZ-aFG"/>
+                            <constraint firstItem="pxf-MQ-eXR" firstAttribute="leading" secondItem="q5G-09-BhW" secondAttribute="leading" constant="40" id="pAN-jN-5SU"/>
+                            <constraint firstItem="q5G-09-BhW" firstAttribute="trailing" secondItem="UPD-Cz-95g" secondAttribute="trailing" constant="20" id="ses-E6-UdC"/>
+                            <constraint firstItem="OgO-IQ-Kza" firstAttribute="leading" secondItem="q5G-09-BhW" secondAttribute="leading" constant="8" id="u52-Wc-5t4"/>
+                            <constraint firstItem="YNW-Tf-evN" firstAttribute="top" secondItem="q5G-09-BhW" secondAttribute="top" constant="20" id="w4w-VN-dhI"/>
+                            <constraint firstItem="LTE-Fh-aUX" firstAttribute="top" secondItem="OgO-IQ-Kza" secondAttribute="bottom" constant="8" id="xHA-g0-yCl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="q5G-09-BhW"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BVn-jt-18x"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="OgO-IQ-Kza" id="hqD-Mm-YlP"/>
+                        <outlet property="forgotPassBtn" destination="pxf-MQ-eXR" id="aGg-Ja-XR0"/>
+                        <outlet property="passwordTextField" destination="LTE-Fh-aUX" id="AM1-gJ-1GX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aaa-Dx-mKK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="265" y="147"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_facebook" width="10" height="16"/>
+    </resources>
+</document>

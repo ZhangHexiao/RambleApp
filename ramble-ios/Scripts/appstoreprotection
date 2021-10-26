@@ -1,0 +1,18 @@
+#!/bin/sh
+
+#  Script to Protect App Store configuration
+#
+#  Copyright (c) 2016 Guarana. All rights reserved.
+
+lines=$(find "${SRCROOT}" \( -name "Config.swift" \) -print0 | xargs -0 egrep --with-filename --line-number --only-matching "isProd=true|isProd = true" | wc -l)
+if [ "${CONFIGURATION}" = "Release" ]; then
+    #statements
+    if [ $lines -eq 0 ]; then
+      echo "error: You must set isProd to true when archiving for App Store in Config.swift file"
+      exit 1
+    else
+      exit 0
+    fi
+else
+  exit 0
+fi

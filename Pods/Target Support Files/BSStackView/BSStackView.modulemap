@@ -1,0 +1,6 @@
+framework module BSStackView {
+  umbrella header "BSStackView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -107,9 +107,3 @@
 - Set up the local notification to remind User to rate two hour after the end of experience
 
 
----
-
-## Documentation (To be done)
-
----
->>>>>>> 005638216cb68db02db41038b285cfd1afa8c833

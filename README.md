@@ -1,6 +1,3 @@
-# ramble_user_v3
-New version with time period feature for each experience
-=======
 ![image](https://github.com/ZhangHexiao/RambleApp/blob/master/images/RambleIcon.png)
 
 
